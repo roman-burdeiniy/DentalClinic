@@ -1,0 +1,1456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="DentalClinic:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/ua/com/dentalclinic/base/ServiceBase.java" line="23" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="78f8ea56-0059-41f9-a403-16abb2536dd9" name="Default" comment="" />
+    <ignored path="DentalClinic.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/web.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1386091777059" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/web/WEB-INF/web.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381409086195" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/META-INF/persistence.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407567555" ignored="false" />
+    <file path="/fragment.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388412905805" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/AppointmentsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407380337" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/ClinicGalleryVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407380567" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/DoctorsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407381239" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/DoctorsTranslationsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407382170" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/DoctorsTranslationsVOPK.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407382170" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/PatientsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407383041" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/LanguagesVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407382170" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/TreatmentsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407383385" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/TreatmentsImagesVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407383700" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/TreatmentsTranslationsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407384288" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/TreatmentsTranslationsVOPK.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407384288" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/WorkingHoursVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407384562" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/CharacterSetsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407384885" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/CollationsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407385495" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/CollationCharacterSetApplicabilityVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407385782" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/ColumnsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407387336" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/ColumnPrivilegesVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407388229" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EnginesVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407388537" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407390749" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/FilesVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407394165" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/GlobalStatusVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407394457" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/GlobalVariablesVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407394752" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbBufferPageVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407396613" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbBufferPageLruVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407398177" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbBufferPoolStatsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407401232" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbCmpVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407401504" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbCmpmemVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407402152" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbCmpmemResetVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407402815" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbCmpPerIndexVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407403414" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbCmpPerIndexResetVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407403695" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbCmpResetVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407404621" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbFtBeingDeletedVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407404955" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbFtConfigVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407404955" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbFtDefaultStopwordVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407405194" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbFtDeletedVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407405577" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbFtIndexCacheVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407405925" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbFtIndexTableVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407406499" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbLocksVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407407406" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbLockWaitsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407407994" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbMetricsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407409244" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbSysColumnsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407409888" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbSysDatafilesVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407410217" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbSysFieldsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407410516" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbSysForeignVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407410872" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbSysForeignColsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407411431" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbSysIndexesVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407411741" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbSysTablesVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407413032" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbSysTablespacesVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407413562" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbSysTablestatsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407414157" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbTrxVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407416302" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/KeyColumnUsageVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407417537" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/OptimizerTraceVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407417881" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/ParametersVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407419457" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/PartitionsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407421933" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/PluginsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407423221" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/ProcesslistVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407423797" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/ProfilingVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407425374" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/ReferentialConstraintsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407426570" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/RoutinesVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407429821" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/SchemataVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407430730" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/SchemaPrivilegesVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407431097" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/SessionStatusVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407431339" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/SessionVariablesVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407431696" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/StatisticsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407433540" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/TablesVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407435342" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/TablespacesVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407436296" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/TableConstraintsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407436896" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/TablePrivilegesVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407438089" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/TriggersVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407440086" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/UserPrivilegesVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407440867" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/ViewsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407442062" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/ColumnsPrivVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407443283" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/ColumnsPrivVOPK.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407443283" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/DbVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407446992" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/DbVOPK.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407446992" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407450508" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventVOPK.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407450508" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/FuncVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407450894" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/GeneralLogVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407452018" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/HelpCategoryVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407452018" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/HelpKeywordVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407452805" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/HelpRelationVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407453211" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/HelpRelationVOPK.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407453211" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/HelpTopicVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407453834" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbIndexStatsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407455513" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbIndexStatsVOPK.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407455513" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbTableStatsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407456751" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/InnodbTableStatsVOPK.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407456751" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/NdbBinlogIndexVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407458562" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/NdbBinlogIndexVOPK.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407458562" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/PluginVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407458628" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/ProcVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407462043" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/ProcVOPK.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407462043" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/ProcsPrivVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407463997" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/ProcsPrivVOPK.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407463997" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/ProxiesPrivVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407465708" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/ProxiesPrivVOPK.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407465708" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/ServersVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407466802" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/SlaveMasterInfoVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407470202" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/SlaveMasterInfoVOPK.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407470202" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/SlaveRelayLogInfoVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407471159" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/SlaveWorkerInfoVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407472112" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/SlowLogVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407473338" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/TablesPrivVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407474231" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/TablesPrivVOPK.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407474231" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/TimeZoneVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407474515" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/TimeZoneLeapSecondVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407474515" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/TimeZoneNameVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407474849" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/TimeZoneTransitionVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407475476" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/TimeZoneTransitionVOPK.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407475476" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/TimeZoneTransitionTypeVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407476079" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/TimeZoneTransitionTypeVOPK.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407476079" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/UserVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407480333" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/UserVOPK.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407480333" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/AccountsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407480611" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/CondInstancesVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407480943" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsStagesCurrentVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407481861" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsStagesHistoryVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407482477" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsStagesHistoryLongVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407483373" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsStagesSummaryByAccountByEventNameVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407483961" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsStagesSummaryByHostByEventNameVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407484605" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsStagesSummaryByThreadByEventNameVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407485172" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsStagesSummaryByUserByEventNameVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407485478" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsStagesSummaryGlobalByEventNameVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407486136" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsStatementsCurrentVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407489848" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsStatementsHistoryVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407493571" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsStatementsHistoryLongVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407497269" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsStatementsSummaryByAccountByEventNameVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407499718" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsStatementsSummaryByDigestVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407502222" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsStatementsSummaryByHostByEventNameVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407504630" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsStatementsSummaryByThreadByEventNameVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407507095" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsStatementsSummaryByUserByEventNameVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407509816" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsStatementsSummaryGlobalByEventNameVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407511923" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsWaitsCurrentVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407514180" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsWaitsHistoryVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407515694" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsWaitsHistoryLongVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407517817" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsWaitsSummaryByAccountByEventNameVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407518759" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsWaitsSummaryByHostByEventNameVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407519354" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsWaitsSummaryByInstanceVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407520404" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsWaitsSummaryByThreadByEventNameVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407521227" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsWaitsSummaryByUserByEventNameVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407522154" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/EventsWaitsSummaryGlobalByEventNameVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407522781" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/FileInstancesVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407523094" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/FileSummaryByEventNameVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407525421" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/FileSummaryByInstanceVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407528301" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/HostCacheVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407531189" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/HostsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407531976" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/MutexInstancesVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407532042" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/ObjectsSummaryGlobalByTypeVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407533428" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/PerformanceTimersVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407534213" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/RwlockInstancesVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407534277" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/SessionAccountConnectAttrsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407535181" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/SessionConnectAttrsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407535819" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/SetupActorsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407536033" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/SetupConsumersVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407536553" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/SetupInstrumentsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407536670" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/SetupObjectsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407537611" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/SetupTimersVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407538318" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/SocketInstancesVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407539586" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/SocketSummaryByEventNameVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407541796" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/SocketSummaryByInstanceVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407544852" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/TableIoWaitsSummaryByIndexUsageVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407549808" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/TableIoWaitsSummaryByTableVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407555147" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/TableLockWaitsSummaryByTableVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407566025" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/ThreadsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407567503" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/vo/UsersVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381407567555" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/web/index.jsp" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381408662768" ignored="false" />
+    <file path="/index.jsp" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385983772601" ignored="false" />
+    <file path="$PROJECT_DIR$/../DentalClinic2/src/ServletTest.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381409101154" ignored="false" />
+    <file path="/price.html" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1384875343017" ignored="false" />
+    <file path="/priceTest.js" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1384870549847" ignored="false" />
+    <file path="/index.js" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1384876559748" ignored="false" />
+    <file path="/price.js" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1384871982900" ignored="false" />
+    <file path="/PriceController.js" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385051933182" ignored="false" />
+    <file path="/treatment.css" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1384959292647" ignored="false" />
+    <file path="/jquery-ui-1.10.3.custom.css" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1384959013242" ignored="false" />
+    <file path="/1.regexp" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1384956054979" ignored="false" />
+    <file path="/jquery.multiselect.js" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1384957962678" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/AlgoritmTest/js/main.js" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385038101069" ignored="false" />
+    <file path="/main.js" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385046790549" ignored="false" />
+    <file path="$USER_HOME$/Desktop/test/main.js" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385046878634" ignored="false" />
+    <file path="/a.dummy" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388419317387" ignored="false" />
+    <file path="/TreatmentServlet.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388415807758" ignored="false" />
+    <file path="/CategoriesListDTO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385051202114" ignored="false" />
+    <file path="/TreatmentsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385053487258" ignored="false" />
+    <file path="/TreatmentsService.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388481693021" ignored="false" />
+    <file path="/TreatmentsController.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388484623926" ignored="false" />
+    <file path="/TreatmentsCollection.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385054242989" ignored="false" />
+    <file path="/TreatmentsModel.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388484470126" ignored="false" />
+    <file path="/TreatmentsDTOBuilder.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388412776620" ignored="false" />
+    <file path="/TreatmentDTO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385120102051" ignored="false" />
+    <file path="/LaguageUtils.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385120370233" ignored="false" />
+    <file path="/LanguageModel.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385123167552" ignored="false" />
+    <file path="/TreatmentsTranslationsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385123047358" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DentalClinicEE/META-INF/ejb-jar.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385637856563" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DentalClinicEE/META-INF/application.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385637880439" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DentalClinicEE/src/META-INF/persistence.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385637880769" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/META-INF/ejb-jar.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385992021995" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/META-INF/persistence.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385646866148" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/META-INF/application.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1386088798071" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/web/WEB-INF/web.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1386086457624" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/vo/base/AppointmentsVOBase.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385645148053" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/vo/base/ClinicGalleryVOBase.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385645148053" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/vo/base/DoctorsVOBase.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385645148053" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/vo/base/DoctorsTranslationsVOBase.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385645148053" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/vo/base/DoctorsTranslationsVOBasePK.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385645141641" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/vo/base/LanguagesVOBase.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385648035799" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/vo/base/PatientsVOBase.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385645148053" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/vo/base/RolesVOBase.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385645148053" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/vo/base/TreatmentCategoryVOBase.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385650762870" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/vo/base/TreatmentCategoryTranslationsVOBase.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385647370618" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/vo/base/TreatmentCategoryTranslationsVOBasePK.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385645143801" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/vo/base/TreatmentsVOBase.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385646768970" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/vo/base/TreatmentsImagesVOBase.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385645148053" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/vo/base/TreatmentsTranslationsVOBase.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385647503664" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/vo/base/UserRolesVOBase.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385645148053" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/vo/base/TreatmentsTranslationsVOBasePK.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385645145239" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/vo/base/UsersVOBase.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385653343493" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/vo/base/WorkingHoursVOBase.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385645148053" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/treatments/TreatmentsService.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385648850145" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/treatments/TreatmentsModel.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385650961525" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/treatments/TreatmentServlet.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385651676713" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/treatments/TreatmentsController.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385652480336" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/vo/base/TreatmentCategoryVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385645560398" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/vo/TreatmentCategoryVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385646456533" ignored="false" />
+    <file path="/TreatmentCategoryVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388484979245" ignored="false" />
+    <file path="/TreatmentsDataProvider.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385645609866" ignored="false" />
+    <file path="/TreatmentCategoryVOBase.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385646541950" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/vo/TreatmentVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385647138304" ignored="false" />
+    <file path="/TreatmentVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388402807796" ignored="false" />
+    <file path="/TreatmentsVOBase.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385646763169" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/vo/TreatmentCategoryTranslationsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385647386674" ignored="false" />
+    <file path="/TreatmentCategoryTranslationsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385647353243" ignored="false" />
+    <file path="/TreatmentCategoryTranslationsVOBase.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385647368311" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/vo/TreatmentTranslationsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385647525938" ignored="false" />
+    <file path="/TreatmentTranslationsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385647519967" ignored="false" />
+    <file path="/TreatmentsTranslationsVOBase.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385647501399" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/language/LanguageModel.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385648448579" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/language/LaguageUtils.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385647967140" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/language/LanguageController.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385653268060" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/language/LanguageService.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385653273386" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/vo/LanguagesVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385653235218" ignored="false" />
+    <file path="/LanguagesVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385648021528" ignored="false" />
+    <file path="/LanguagesVOBase.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385648033444" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/vo/ITranslationVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385648402967" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/base/ServiceBase.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385648799144" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/ApplicationInitManager.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385648786277" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/EntityManagerProvider.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385648669641" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/dto/TreatmentDTO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385651520367" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/dto/CategoriesListDTO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385651520367" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/dto/CategoryDTO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385651520367" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/src/java/com/dental/dto/builder/TreatmentsDTOBuilder.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385651520672" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/testWeb/web/WEB-INF/web.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385983918873" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/testWeb/src/META-INF/persistence.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385983737669" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/testWeb/web/index.jsp" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385983772299" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/testWeb/src/java/test/TestServlet.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385984067519" ignored="false" />
+    <file path="/TestServlet.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385995037960" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/MavenTest/.idea/workspace.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1386001954696" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/MavenTest/.idea/compiler.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385986952752" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/MavenTest/pom.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385986992000" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/META-INF/beans.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385991428784" ignored="false" />
+    <file path="/ejb-jar.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385992070949" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/test2/web/WEB-INF/web.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1386001650742" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/test2/src/com/test.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385995005677" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/test2/src/com/TestServlet.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385995034272" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/MavenTomee/pom.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1386083526697" ignored="false" />
+    <file path="/Dummy.txt" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388491166783" ignored="false" />
+    <file path="/application.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1386087909023" ignored="false" />
+    <file path="$USER_HOME$/.IntelliJIdea12/system/extResources/javaee_7.xsd" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1386086504862" ignored="false" />
+    <file path="$USER_HOME$/.IntelliJIdea12/system/extResources/9b192256_xml.xsd" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1386086823656" ignored="false" />
+    <file path="$USER_HOME$/.IntelliJIdea12/system/extResources/javaee_web_services_client_1_4.xsd" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1386086823656" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/.idea/workspace.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388414848588" ignored="false" />
+    <file path="/persistence.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388484033541" ignored="false" />
+    <file path="/ServiceBase.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388420898834" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388492486154" ignored="false" />
+    <file path="/ApplicationInitManager.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388419630269" ignored="false" />
+    <file path="/LanguageController.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388481813939" ignored="false" />
+    <file path="/LanguageService.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388481670486" ignored="false" />
+    <file path="/EntityManagerProvider.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388481918196" ignored="false" />
+    <file path="/DoctorsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388488183365" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <flatten value="false" />
+    <groupTables value="false" />
+  </component>
+  <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsService.java" line="55" class="ua.com.dentalclinic.treatment.TreatmentsService" package="ua.com.dentalclinic.treatment">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="DentalClinic" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="DoctorsVO.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/DoctorsVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="56" selection-start="991" selection-end="991" vertical-scroll-proportion="0.62842894">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DoctorsTranslationsVOPK.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/DoctorsTranslationsVOPK.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="30" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreatmentCategoryTranslationsVOPK.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentCategoryTranslationsVOPK.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="22" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreatmentsTranslationsVOPK.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentsTranslationsVOPK.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="37" column="44" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreatmentsTranslationsVO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentsTranslationsVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="47" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DoctorsTranslationsVO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/DoctorsTranslationsVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="58" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreatmentCategoryTranslationsVO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentCategoryTranslationsVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="51" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreatmentsModel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="0" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreatmentsService.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="0" selection-start="1799" selection-end="1799" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/EntityManagerProvider.java" />
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/language/LanguageService.java" />
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/base/ServiceBase.java" />
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsController.java" />
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsModel.java" />
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentCategoryVO.java" />
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentsVO.java" />
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/DoctorsVO.java" />
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/DoctorsTranslationsVOPK.java" />
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentCategoryTranslationsVOPK.java" />
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentsTranslationsVOPK.java" />
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentsTranslationsVO.java" />
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/DoctorsTranslationsVO.java" />
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentCategoryTranslationsVO.java" />
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsService.java" />
+        <option value="$PROJECT_DIR$/src/META-INF/persistence.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_INTERNAL" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="library-invalid-classes-path(library:project:eclipselink-2.1.21)" />
+      <problem id="library-invalid-classes-path(library:project:hibernate-entitymanager-4.2.7.SP1)" />
+      <problem id="library-invalid-classes-path(library:project:javax.persistence_2.1.0.v201304241213)" />
+      <problem id="library-invalid-classes-path(library:project:odata4j-core-0.8.0-SNAPSHOT)" />
+      <problem id="library-invalid-classes-path(library:project:org.eclipse.persistence.jpa.modelgen_2.5.1.v20130918-f2b9fc5)" />
+      <problem id="library-invalid-classes-path(library:project:org.eclipse.persistence.jpars_2.5.1.v20130918-f2b9fc5)" />
+      <problem id="library-invalid-classes-path(library:project:Tomcat)" />
+      <problem id="library-invalid-source-javadoc-path(library:project:javax.persistence.source_2.1.0.v201304241213)" />
+      <problem id="library-invalid-source-javadoc-path(library:project:org.eclipse.persistence.jpa.modelgen.source_2.5.1.v20130918-f2b9fc5)" />
+      <problem id="library-invalid-source-javadoc-path(library:project:org.eclipse.persistence.jpars.source_2.5.1.v20130918-f2b9fc5)" />
+      <problem id="unused-library(library:project:apache-tomcat-7.0)" />
+    </ignored-problems>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DentalClinic" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="Persistence.ERD.GroupObjects" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Persistence.ERD.MergeEmbedded" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="Downloaded.Files.Path" value="D:\DentalClinic\Java\lib" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="Persistence.ERD.SimpleMode" value="false" />
+    <property name="project.structure.side.proportion" value="0.3927739" />
+    <property name="DefaultHtmlFileTemplate" value="Html" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="Persistence.ERD.MergeInherited" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ua.com.dentalclinic" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DentalClinic\Java\lib" />
+      <recent name="D:\DentalClinic\Java\src\ua\com\dentalclinic\language" />
+      <recent name="D:\DentalClinic\Java\src\ua\com\dentalclinic\treatment" />
+      <recent name="D:\DentalClinic\Java\src\ua\com\dentalclinic\vo\" />
+      <recent name="D:\DentalClinic\Java\src\ua\com\dentalclinic\vo" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="ua.com.dentalclinic.vo.base" />
+      <recent name="ua.com.dentalclinic.vo" />
+      <recent name="ua.com.dentalclinic" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ua.com.dentalclinic.treatment" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DentalClinic\Java\web\admin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7">
+    <configuration default="false" name="Default" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console" temporary="true">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <configuration default="false" name="login.html" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/admin/login.html" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="DentalClinic:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_DentalClinic" />
+      </server-settings>
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55070" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="D:/apache-tomcat-8.0.0-RC3/bin/catalina.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="run" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="D:/apache-tomcat-8.0.0-RC3/bin/catalina.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="stop" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="D:/apache-tomcat-8.0.0-RC3/bin/catalina.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="run" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="D:/apache-tomcat-8.0.0-RC3/bin/catalina.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="stop" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="DentalClinic:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="false" name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/admin/index.jsp" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="DentalClinic:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_DentalClinic" />
+      </server-settings>
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55070" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="D:/apache-tomcat-8.0.0-RC3/bin/catalina.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="run" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="D:/apache-tomcat-8.0.0-RC3/bin/catalina.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="stop" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="D:/apache-tomcat-8.0.0-RC3/bin/catalina.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="run" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="D:/apache-tomcat-8.0.0-RC3/bin/catalina.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="stop" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="DentalClinic:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browserFamily" value="FIREFOX" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_DentalClinic" />
+      </server-settings>
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55070" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="D:/apache-tomcat-8.0.0-RC3/bin/catalina.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="run" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="D:/apache-tomcat-8.0.0-RC3/bin/catalina.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="stop" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="D:/apache-tomcat-8.0.0-RC3/bin/catalina.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="run" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="D:/apache-tomcat-8.0.0-RC3/bin/catalina.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="stop" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Tomcat 7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="DentalClinic:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_DentalClinic" />
+      </server-settings>
+      <predefined_log_file id="TOMCAT_LOCALHOST_LOG_ID" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="55070" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="D:/apache-tomcat-8.0.0-RC3/bin/catalina.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="run" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="D:/apache-tomcat-8.0.0-RC3/bin/catalina.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="stop" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="D:/apache-tomcat-8.0.0-RC3/bin/catalina.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="run" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="D:/apache-tomcat-8.0.0-RC3/bin/catalina.bat" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="stop" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="DentalClinic:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7" />
+      <item index="1" class="java.lang.String" itemvalue="Query Language Console.Default" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.login.html" />
+      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="false">C:\Users\roman_b\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78f8ea56-0059-41f9-a403-16abb2536dd9" name="Default" comment="" />
+      <created>1380812048353</created>
+      <updated>1380812048353</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5005574" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24226254" sideWeight="0.08918618" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.4914621" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.6555184" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40691194" sideWeight="0.69050163" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5005574" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24226254" sideWeight="0.17391305" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2664437" sideWeight="0.36499467" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32604057" sideWeight="0.23608018" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32887402" sideWeight="0.48292422" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23959444" sideWeight="0.18930958" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21184632" sideWeight="0.49944258" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3779264" sideWeight="0.5939168" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5300668" order="9" side_tool="false" content_ui="combo" />
+      <window_info id="JPA Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20117396" sideWeight="0.5957684" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34632516" sideWeight="0.47865528" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="VssConfiguration">
+    <option name="CLIENT_PATH" value="" />
+    <option name="SRCSAFEINI_PATH" value="" />
+    <option name="USER_NAME" value="" />
+    <option name="PWD" value="" />
+    <CheckoutOptions>
+      <option name="COMMENT" value="" />
+      <option name="DO_NOT_GET_LATEST_VERSION" value="false" />
+      <option name="REPLACE_WRITABLE" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckoutOptions>
+    <CheckinOptions>
+      <option name="COMMENT" value="" />
+      <option name="KEEP_CHECKED_OUT" value="false" />
+      <option name="RECURSIVE" value="false" />
+    </CheckinOptions>
+    <AddOptions>
+      <option name="STORE_ONLY_LATEST_VERSION" value="false" />
+      <option name="CHECK_OUT_IMMEDIATELY" value="false" />
+    </AddOptions>
+    <UndocheckoutOptions>
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="REPLACE_LOCAL_COPY" value="2" />
+      <option name="RECURSIVE" value="false" />
+    </UndocheckoutOptions>
+    <GetOptions>
+      <option name="REPLACE_WRITABLE" value="0" />
+      <option name="MAKE_WRITABLE" value="false" />
+      <option name="ANSWER_NEGATIVELY" value="false" />
+      <option name="ANSWER_POSITIVELY" value="false" />
+      <option name="RECURSIVE" value="false" />
+      <option name="VERSION" />
+    </GetOptions>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/language/LanguageService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="42" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/base/ServiceBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="13" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/language/LanguageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="552" selection-end="564" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="476" selection-end="490" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentsVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="143" column="0" selection-start="4636" selection-end="4636" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentCategoryVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="60" selection-start="2353" selection-end="2353" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#1780#1813#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/DoctorsTranslationsVOPK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="30" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentCategoryTranslationsVOPK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="22" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentsTranslationsVOPK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="44" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentsTranslationsVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="47" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/DoctorsTranslationsVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="58" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentCategoryTranslationsVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="51" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="0" selection-start="1799" selection-end="1799" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/persistence.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="92" selection-start="1568" selection-end="1568" vertical-scroll-proportion="0.5267606">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/DoctorsVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="56" selection-start="991" selection-end="991" vertical-scroll-proportion="0.62842894">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>DentalClinic:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3927739" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3927739" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3927739" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3927739" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>DentalClinic</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.3927739" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>servlet-api</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.53410405" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+

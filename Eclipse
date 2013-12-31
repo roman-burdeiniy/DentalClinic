@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eclipse-userlibraries>
+  <library name="servlet-api">
+    <archive path="D:/apache-tomcat-8.0.0-RC3/lib/servlet-api.jar" />
+  </library>
+  <library name="org.odata4j:odata4j-core:0.8.0-SNAPSHOT">
+    <archive path="D:/DentalClinic/Java/lib/odata4j-core-0.8.0-SNAPSHOT.jar" />
+    <archive path="D:/DentalClinic/Java/lib/core4j-0.5.jar" />
+    <archive path="D:/DentalClinic/Java/lib/jsr311-api-1.1.1.jar" />
+    <archive path="D:/DentalClinic/Java/lib/javax.persistence-2.0.0.jar" />
+    <archive path="D:/DentalClinic/Java/lib/eclipselink-2.1.2.jar" />
+    <archive path="D:/DentalClinic/Java/lib/joda-time-2.1.jar" />
+    <archive path="D:/DentalClinic/Java/lib/xmlpull-1.1.3.4a.jar" />
+  </library>
+  <library name="JPA 2.0-JPA 2.0">
+    <archive path="D:/DentalClinic/Java/lib/javax.persistence.jar" />
+  </library>
+</eclipse-userlibraries>
+

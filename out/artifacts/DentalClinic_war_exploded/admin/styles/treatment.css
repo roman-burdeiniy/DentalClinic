@@ -1,0 +1,147 @@
+
+section#tableSection
+{
+    width: 600px;
+    padding-left: 15px;
+}
+
+section#categorySection
+{
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+#holderSection
+{
+    position: relative;
+}
+
+#listContent{
+    float: left;
+}
+
+#cardContent{
+    float: left;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.descriptionLabel
+{
+    width: 300px;
+    text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: top;
+    cursor:pointer;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * General treatment table setup
+ */
+#treatmentsTable {
+    font: 80%/1.45em "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fff;
+}
+
+.css_right {
+    float: right;
+}
+
+.css_left {
+    float: left;
+}
+
+.expanded-group {
+    background: url("../images/minus.jpg") no-repeat scroll right center transparent;
+}
+
+.collapsed-group {
+    background: url("../images/plus.jpg") no-repeat scroll right center transparent;
+}
+
+.subgroup{
+    background-color: #D4DFD8;
+    border-bottom: medium solid;
+}
+
+td.group {
+    background-color: #D1CFD0;
+    border-bottom: 2px solid #A19B9E;
+    border-top: 2px solid #A19B9E;
+}
+
+.description-tooltip-styling
+{
+    font-style: normal;
+    font-size: 12px;
+}
+
+#treatmentsTable.table-row
+{
+    cursor:pointer;
+}
+
+.ui-state-hover-multiselect,
+.ui-widget-content .ui-state-hover-multiselect,
+.ui-widget-header .ui-state-hover-multiselect,
+.ui-state-focus {
+    border: 1px solid #a45b13;
+    background: #ffdd57 url(../../styles/images/ui-bg_gloss-wave_70_ffdd57_500x100.png) 50% 50% repeat-x;
+    font-weight: normal;
+    color: #381f00;
+}
+
+select.option:hover
+{
+    border: 1px solid #a45b13;
+}
+
+
+table.dataTable tr.odd { background-color: #DDFFDD; }
+table.dataTable tr.even { background-color: #EEFFEE; }
+
+table.dataTable tr.odd:hover { background-color: #F7CD8A; }
+table.dataTable tr.even:hover { background-color: #F7CD8A; }
+
+
+
+form{
+    float:none;
+    display:block;
+}
+
+form label{
+    float:left;
+    width: 10em;
+    text-align: right;
+}
+
+form input, textarea, select{
+    margin-left: 1em;
+}
+
+form #name, form select
+{
+    width: 420px;
+}
+
+form .button_div
+{
+    padding-left: 10em;
+}
+
+#cardContent h1
+{
+    margin-left: 5em;
+}
+
+
+
+
+
+

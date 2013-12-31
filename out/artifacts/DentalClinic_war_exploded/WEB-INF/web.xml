@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+	      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         version="3.0">
+
+    <display-name>DentalClinic</display-name>
+
+
+    <welcome-file-list>
+        <welcome-file>admin/index.jsp</welcome-file>
+    </welcome-file-list>
+
+    <!--                Security                    -->
+    <security-role>
+        <description>Admin security role</description>
+        <role-name>admin</role-name>
+    </security-role>
+
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>Wildcard means whole app requires authentication</web-resource-name>
+            <url-pattern>/admin/*</url-pattern>
+        </web-resource-collection>
+
+        <auth-constraint>
+            <role-name>admin</role-name>
+        </auth-constraint>
+        <user-data-constraint>
+            <transport-guarantee>NONE</transport-guarantee>
+        </user-data-constraint>
+    </security-constraint>
+
+    <login-config>
+        <auth-method>FORM</auth-method>
+        <form-login-config>
+            <form-login-page>/login/login.html</form-login-page>
+            <form-error-page>/login/login-failed.html</form-error-page>
+        </form-login-config>
+    </login-config>
+
+    <!--                Security End                    -->
+
+    <servlet>
+        <servlet-name>treatmentServlet</servlet-name>
+        <servlet-class>ua.com.dentalclinic.treatment.TreatmentServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>treatmentServlet</servlet-name>
+        <url-pattern>/admin/servlet/treatmentServlet</url-pattern>
+    </servlet-mapping>
+
+
+</web-app>
+

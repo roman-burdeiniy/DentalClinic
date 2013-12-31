@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="2.0">
+
+    <persistence-unit name="persistenceUnit" transaction-type="JTA">
+       <!-- <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>-->
+        <jta-data-source>dentalClinicDB</jta-data-source>
+        <class>ua.com.dentalclinic.vo.base.AppointmentsVO</class>
+        <class>ua.com.dentalclinic.vo.base.ClinicGalleryVO</class>
+        <class>ua.com.dentalclinic.vo.base.DoctorsVO</class>
+        <class>ua.com.dentalclinic.vo.base.DoctorsTranslationsVO</class>
+        <class>ua.com.dentalclinic.vo.base.LanguagesVO</class>
+        <class>ua.com.dentalclinic.vo.base.PatientsVO</class>
+        <class>ua.com.dentalclinic.vo.base.RolesVO</class>
+        <class>ua.com.dentalclinic.vo.base.TreatmentCategoryVO</class>
+        <class>ua.com.dentalclinic.vo.base.TreatmentCategoryTranslationsVO</class>
+        <class>ua.com.dentalclinic.vo.base.TreatmentsVO</class>
+        <class>ua.com.dentalclinic.vo.base.TreatmentsImagesVO</class>
+        <class>ua.com.dentalclinic.vo.base.TreatmentsTranslationsVO</class>
+        <class>ua.com.dentalclinic.vo.base.UserRolesVO</class>
+        <class>ua.com.dentalclinic.vo.base.UsersVO</class>
+        <class>ua.com.dentalclinic.vo.base.WorkingHoursVO</class>
+
+
+
+        <properties>
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/dentalclinicdb?characterEncoding=UTF-8"/>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+            <property name="javax.persistence.jdbc.user" value="root"/>
+            <property name="javax.persistence.jdbc.password" value="Gosha777"/>
+
+        </properties>
+    </persistence-unit>
+
+</persistence>
