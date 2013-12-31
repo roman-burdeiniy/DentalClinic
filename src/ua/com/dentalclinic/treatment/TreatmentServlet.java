@@ -75,8 +75,8 @@ public class TreatmentServlet extends javax.servlet.http.HttpServlet {
                     CategoryDTO catToAdd = new CategoryDTO();
                     catToAdd.setId(category.getId());
                     Collection<TreatmentCategoryTranslationsVO> translations = category.getTreatmentCategoryTranslationsesById();
-                  //  TreatmentCategoryTranslationsVO translation = (TreatmentCategoryTranslationsVO)category.getTreatmentCategoryTranslationsesById().toArray()[0];
-                   // catToAdd.setName(translation.getName());
+                    TreatmentCategoryTranslationsVO translation = (TreatmentCategoryTranslationsVO)category.getTreatmentCategoryTranslationsesById().toArray()[0];
+                    catToAdd.setName(translation.getName());
                     categToSend.add(catToAdd);
                 }
                 resp.setContentType("application/Json");
