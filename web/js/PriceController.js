@@ -10,8 +10,6 @@ Admin.PriceController = (function() {
     function configPriceTable()
     {
         $('#treatmentsTable').dataTable({
-            "bServerSide": true,
-            "sAjaxSource": "/admin/servlet/treatmentServlet",
             "bProcessing": true,
             "bLengthChange": false,
             "bPaginate": false,
@@ -19,9 +17,10 @@ Admin.PriceController = (function() {
             "bFilter" : false,
             "aoColumns": [
                 { "mData": "group" },
+                { "mData": "subGroup", "mDataProp" : "subGroup" },
                 { "mData": "name" },
-                { "mData": "lowPrice", "bSortable": false },
-                { "mData": "topPrice", "bSortable": false },
+                { "mData": "price", "bSortable": false },
+                { "mData": "guaranty", "bSortable": false },
                 { "mData": "description", "bSortable": false, "mRender" : function(data, type, full){
                     return '<label class="descriptionLabel">' + data + '</label>';
                 } }
@@ -43,7 +42,7 @@ Admin.PriceController = (function() {
             "fnCreatedRow": function( nRow, aData, iDataIndex ) {
                 $(this).addClass('table-row');
             }
-        }).rowGrouping({bExpandableGrouping: true});
+        }).rowGrouping({"bExpandableGrouping": true, "iGroupingColumnIndex2": 1, "bExpandableGrouping2": true});
     }
 
     function configPriceCategory()
@@ -66,12 +65,14 @@ Admin.PriceController = (function() {
         $.post("admin/servlet/treatmentServlet", data, function(data){
 
             var categories = $.parseJSON(data).categories;
-
+            var allCategory = {id : 0, name : "All"};
+            addCategoryToSelect(allCategory, $('#treatmentCategorySelect'), true);
             for (var i = 0; i < categories.length; i++) {
                 var category = categories[i];
-                addCategoryToSelect(category, $('#treatmentCategorySelect'))
+                addCategoryToSelect(category, $('#treatmentCategorySelect'));
             }
             $("#treatmentCategorySelect").multiselect('refresh');
+            loadPricesByCategories([allCategory.id]);
         })
     }
 
@@ -81,15 +82,21 @@ Admin.PriceController = (function() {
         var data = {actionName : 'loadPricesByCategories', 'categoryIds[]': catList};
         $.post("admin/servlet/treatmentServlet", data, function(data){
 
-          var a = 1;
+            $('#treatmentsTable').dataTable().fnClearTable();
+            $('#treatmentsTable').dataTable().fnAddData(jQuery.parseJSON(data).prices);
         })
     }
 
-    function addCategoryToSelect(category, select)
+    function addCategoryToSelect(category, select, isSelected)
     {
-        select.append($("<option></option>")
-                .attr("value", category.id)
-                .text(category.name));
+        var option = $("<option></option>")
+            .attr("value", category.id)
+            .text(category.name);
+        if (isSelected == true)
+        {
+            option.attr("selected", "selected");
+        }
+        select.append(option);
     }
 
     function addNewCategory()

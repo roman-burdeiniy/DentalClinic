@@ -19,7 +19,6 @@ public class LanguagesVO {
     private int id;
     private String code;
     private Collection<DoctorsTranslationsVO> doctorsTranslationsesById;
-    private Collection<TreatmentCategoryTranslationsVO> treatmentCategoryTranslationsesById;
     private Collection<TreatmentsTranslationsVO> treatmentsTranslationsesById;
 
     @javax.persistence.Column(name = "Id")
@@ -69,15 +68,6 @@ public class LanguagesVO {
 
     public void setDoctorsTranslationsesById(Collection<DoctorsTranslationsVO> doctorsTranslationsesById) {
         this.doctorsTranslationsesById = doctorsTranslationsesById;
-    }
-
-    @OneToMany(mappedBy = "languagesByLangId")
-    public Collection<TreatmentCategoryTranslationsVO> getTreatmentCategoryTranslationsesById() {
-        return treatmentCategoryTranslationsesById;
-    }
-
-    public void setTreatmentCategoryTranslationsesById(Collection<TreatmentCategoryTranslationsVO> treatmentCategoryTranslationsesById) {
-        this.treatmentCategoryTranslationsesById = treatmentCategoryTranslationsesById;
     }
 
     @OneToMany(mappedBy = "languagesByLangId")

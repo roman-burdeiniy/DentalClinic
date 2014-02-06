@@ -7,7 +7,7 @@ package ua.com.dentalclinic.dto;
  * Time: 7:17 PM
  * To change this template use File | Settings | File Templates.
  */
-public class CategoryDTO {
+public class TreatmentCategoryDTO {
 
     private String name;
 

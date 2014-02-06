@@ -11,8 +11,6 @@
         <class>ua.com.dentalclinic.vo.base.LanguagesVO</class>
         <class>ua.com.dentalclinic.vo.base.PatientsVO</class>
         <class>ua.com.dentalclinic.vo.base.RolesVO</class>
-        <class>ua.com.dentalclinic.vo.base.TreatmentCategoryVO</class>
-        <class>ua.com.dentalclinic.vo.base.TreatmentCategoryTranslationsVO</class>
         <class>ua.com.dentalclinic.vo.base.TreatmentsVO</class>
         <class>ua.com.dentalclinic.vo.base.TreatmentsImagesVO</class>
         <class>ua.com.dentalclinic.vo.base.TreatmentsTranslationsVO</class>

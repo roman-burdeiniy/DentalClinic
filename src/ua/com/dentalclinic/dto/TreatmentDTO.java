@@ -29,6 +29,17 @@ public class TreatmentDTO {
         this.group = group;
     }
 
+    private String subGroup;
+
+    public String getSubGroup() {
+        return subGroup;
+    }
+
+    public void setSubGroup(String subGroup) {
+        this.subGroup = subGroup;
+    }
+
+
     private String name;
 
     public String getName() {
@@ -39,7 +50,7 @@ public class TreatmentDTO {
         this.name = name;
     }
 
-    private String description;
+    private String description = "";
 
     public String getDescription() {
         return description;
@@ -49,23 +60,25 @@ public class TreatmentDTO {
         this.description = description;
     }
     
-    private String lowPrice;
+    private String price;
 
-    public String getLowPrice() {
-        return lowPrice;
+    public String getPrice() {
+        return price;
     }
 
-    public void setLowPrice(String lowPrice) {
-        this.lowPrice = lowPrice;
+    public void setPrice(String price) {
+        this.price = price;
     }
 
-    private String topPrice;
+    private String guaranty = "";
 
-    public String getTopPrice() {
-        return topPrice;
+    public void setGuaranty(String guaranty)
+    {
+        this.guaranty = guaranty;
     }
 
-    public void setTopPrice(String topPrice) {
-        this.topPrice = topPrice;
+    public String getGuaranty()
+    {
+        return this.guaranty;
     }
 }

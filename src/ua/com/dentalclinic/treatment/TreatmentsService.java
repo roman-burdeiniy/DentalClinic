@@ -2,10 +2,8 @@ package ua.com.dentalclinic.treatment;
 
 
 import ua.com.dentalclinic.base.ServiceBase;
-import ua.com.dentalclinic.vo.base.TreatmentCategoryVO;
 import ua.com.dentalclinic.vo.base.TreatmentsVO;
 
-import javax.persistence.EntityManager;
 import javax.persistence.TypedQuery;
 import java.util.Arrays;
 import java.util.List;
@@ -21,47 +19,27 @@ public class TreatmentsService extends ServiceBase {
 
     public List<TreatmentsVO> getAllTreatments(int langId)
     {
-        List<TreatmentsVO> results = (List<TreatmentsVO>)getItems("TreatmentsVO.getAllByLangId", langId);
-        return  results;
+        List<TreatmentsVO> results = em.createNamedQuery("TreatmentVO.getAllByLangId")
+                .setParameter("langId", langId)
+                .getResultList();
+        return results;
     }
 
     public List<TreatmentsVO> getTreatmentsByCategoryAndLang(String[] catIds, int langId)
     {
-       // initEntityManager();
-        List<TreatmentsVO> results;
-        if (catIds != null && catIds.length > 0)
-        {
-            results = em.createNamedQuery("TreatmentVO.getTreatmentsByCatIdAndLangId")
-                    .setParameter("catIds", Arrays.asList(catIds))
-                    .setParameter("langId", langId)
-                    .getResultList();
-        }
-        else
-        {
-            results = em.createNamedQuery("TreatmentVO.getNonCatigorized")
-                    .setParameter("langId", langId)
-                    .getResultList();
-        }
-
-       // em.close();
+        List<TreatmentsVO> results = em.createNamedQuery("TreatmentVO.getTreatmentsByCatIdAndLangId")
+            .setParameter("catIds", Arrays.asList(catIds))
+            .setParameter("langId", langId)
+            .getResultList();
         return results;
     }
 
-    public List<TreatmentCategoryVO> getAllCategoriesByLang(int langId)
+    public List<TreatmentsVO> getCategoryTreatments(int langId)
     {
-        TypedQuery<TreatmentCategoryVO> query =
-                em.createNamedQuery("TreatmentCategoryVO.getAllByLangId", TreatmentCategoryVO.class)
-                .setParameter("langId", langId);
-        List<TreatmentCategoryVO> results = query.getResultList();
-        return  results;
-    }
-
-    public int insertCategory(TreatmentCategoryVO item)
-    {
-        em.getTransaction().begin();
-        em.persist(item);
-        em.getTransaction().commit();
-        return item.getId();
+        List<TreatmentsVO> results = em.createNamedQuery("TreatmentVO.getAllCategoryTreatmentsByLangId")
+                .setParameter("langId", langId)
+                .getResultList();
+        return results;
     }
 
     public int insertTreatment(TreatmentsVO item)

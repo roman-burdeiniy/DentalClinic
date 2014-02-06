@@ -9,7 +9,31 @@
     <bookmark url="file://$PROJECT_DIR$/src/ua/com/dentalclinic/base/ServiceBase.java" line="23" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78f8ea56-0059-41f9-a403-16abb2536dd9" name="Default" comment="" />
+    <list default="true" id="78f8ea56-0059-41f9-a403-16abb2536dd9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentJSONBuilder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/client/index.html" />
+      <change type="DELETED" beforePath="D:\DentalClinic\Java\src\ua\com\dentalclinic\vo\base\TreatmentCategoryTranslationsVO.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\DentalClinic\Java\src\ua\com\dentalclinic\vo\base\TreatmentCategoryTranslationsVOPK.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\DentalClinic\Java\src\ua\com\dentalclinic\vo\base\TreatmentCategoryVO.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/com/dentalclinic/language/LanguageModel.java" afterPath="$PROJECT_DIR$/src/ua/com/dentalclinic/language/LanguageModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/LanguagesVO.java" afterPath="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/LanguagesVO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/js/PriceController.js" afterPath="$PROJECT_DIR$/web/js/PriceController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/com/dentalclinic/dto/TreatmentDTO.java" afterPath="$PROJECT_DIR$/src/ua/com/dentalclinic/dto/TreatmentDTO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentServlet.java" afterPath="$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentServlet.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsController.java" afterPath="$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsModel.java" afterPath="$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsService.java" afterPath="$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentsTranslationsVO.java" afterPath="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentsTranslationsVO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentsVO.java" afterPath="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentsVO.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/META-INF/persistence.xml" afterPath="$PROJECT_DIR$/src/META-INF/persistence.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/price.html" afterPath="$PROJECT_DIR$/web/admin/price.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/styles/treatment.css" afterPath="$PROJECT_DIR$/web/admin/styles/treatment.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\DentalClinic\Java\src\ua\com\dentalclinic\dto\CategoryDTO.java" afterPath="$PROJECT_DIR$/src/ua/com/dentalclinic/dto/TreatmentCategoryDTO.java" />
+    </list>
     <ignored path="DentalClinic.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/web.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1386091777059" ignored="false" />
@@ -185,11 +209,11 @@
     <file path="$PROJECT_DIR$/../DentalClinic2/web/index.jsp" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381408662768" ignored="false" />
     <file path="/index.jsp" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385983772601" ignored="false" />
     <file path="$PROJECT_DIR$/../DentalClinic2/src/ServletTest.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1381409101154" ignored="false" />
-    <file path="/price.html" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1384875343017" ignored="false" />
+    <file path="/price.html" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1391689496168" ignored="false" />
     <file path="/priceTest.js" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1384870549847" ignored="false" />
     <file path="/index.js" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1384876559748" ignored="false" />
     <file path="/price.js" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1384871982900" ignored="false" />
-    <file path="/PriceController.js" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385051933182" ignored="false" />
+    <file path="/PriceController.js" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1391682278159" ignored="false" />
     <file path="/treatment.css" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1384959292647" ignored="false" />
     <file path="/jquery-ui-1.10.3.custom.css" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1384959013242" ignored="false" />
     <file path="/1.regexp" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1384956054979" ignored="false" />
@@ -198,18 +222,18 @@
     <file path="/main.js" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385046790549" ignored="false" />
     <file path="$USER_HOME$/Desktop/test/main.js" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385046878634" ignored="false" />
     <file path="/a.dummy" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388419317387" ignored="false" />
-    <file path="/TreatmentServlet.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388415807758" ignored="false" />
+    <file path="/TreatmentServlet.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1391681166524" ignored="false" />
     <file path="/CategoriesListDTO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385051202114" ignored="false" />
-    <file path="/TreatmentsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385053487258" ignored="false" />
-    <file path="/TreatmentsService.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388481693021" ignored="false" />
-    <file path="/TreatmentsController.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388484623926" ignored="false" />
+    <file path="/TreatmentsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1391691101956" ignored="false" />
+    <file path="/TreatmentsService.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1391610052469" ignored="false" />
+    <file path="/TreatmentsController.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1391682394594" ignored="false" />
     <file path="/TreatmentsCollection.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385054242989" ignored="false" />
-    <file path="/TreatmentsModel.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388484470126" ignored="false" />
+    <file path="/TreatmentsModel.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1391681266870" ignored="false" />
     <file path="/TreatmentsDTOBuilder.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388412776620" ignored="false" />
-    <file path="/TreatmentDTO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385120102051" ignored="false" />
+    <file path="/TreatmentDTO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1391683347071" ignored="false" />
     <file path="/LaguageUtils.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385120370233" ignored="false" />
     <file path="/LanguageModel.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385123167552" ignored="false" />
-    <file path="/TreatmentsTranslationsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385123047358" ignored="false" />
+    <file path="/TreatmentsTranslationsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1391612074923" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/DentalClinicEE/META-INF/ejb-jar.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385637856563" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/DentalClinicEE/META-INF/application.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385637880439" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/DentalClinicEE/src/META-INF/persistence.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385637880769" ignored="false" />
@@ -282,7 +306,7 @@
     <file path="$USER_HOME$/IdeaProjects/test2/src/com/test.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385995005677" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/test2/src/com/TestServlet.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1385995034272" ignored="false" />
     <file path="$USER_HOME$/IdeaProjects/MavenTomee/pom.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1386083526697" ignored="false" />
-    <file path="/Dummy.txt" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388491166783" ignored="false" />
+    <file path="/Dummy.txt" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1391422676975" ignored="false" />
     <file path="/application.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1386087909023" ignored="false" />
     <file path="$USER_HOME$/.IntelliJIdea12/system/extResources/javaee_7.xsd" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1386086504862" ignored="false" />
     <file path="$USER_HOME$/.IntelliJIdea12/system/extResources/9b192256_xml.xsd" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1386086823656" ignored="false" />
@@ -290,12 +314,23 @@
     <file path="$USER_HOME$/IdeaProjects/DetnalClinicEE/.idea/workspace.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388414848588" ignored="false" />
     <file path="/persistence.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388484033541" ignored="false" />
     <file path="/ServiceBase.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388420898834" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388492486154" ignored="false" />
     <file path="/ApplicationInitManager.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388419630269" ignored="false" />
     <file path="/LanguageController.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388481813939" ignored="false" />
     <file path="/LanguageService.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388481670486" ignored="false" />
     <file path="/EntityManagerProvider.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388481918196" ignored="false" />
     <file path="/DoctorsVO.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1388488183365" ignored="false" />
+    <file path="/TreatmentResponseBuilder.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1390317616007" ignored="false" />
+    <file path="/TreatmentJSONBuilder.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1391690464484" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/WordPriceParser/src/com/romanb/Main.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1391605801487" ignored="false" />
+    <file path="/Main.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1391605782039" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/WordPriceParser/.idea/workspace.xml" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1391693345124" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/WordPriceParser/src/com/romanb/PriceItem.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1391514575619" ignored="false" />
+    <file path="/PriceItem.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1391514169745" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/WordPriceParser/src/com/romanb/PriceItemBuilder.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1391606732482" ignored="false" />
+    <file path="/PriceItemBuilder.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1391606593346" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/WordPriceParser/src/com/romanb/SQLGenerator.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1391607010153" ignored="false" />
+    <file path="/SQLGenerator.java" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1391605408344" ignored="false" />
+    <file path="$USER_HOME$/IdeaProjects/WordPriceParser/src/com/romanb/outputSQL.txt" changelist="78f8ea56-0059-41f9-a403-16abb2536dd9" time="1391612375317" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,9 +347,9 @@
   <component name="DatabaseView">
     <flatten value="false" />
     <groupTables value="false" />
+    <sortChildren value="true" />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -351,23 +386,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsService.java" line="55" class="ua.com.dentalclinic.treatment.TreatmentsService" package="ua.com.dentalclinic.treatment">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -377,64 +397,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DoctorsVO.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/DoctorsVO.java">
+      <file leaf-file-name="TreatmentServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="56" selection-start="991" selection-end="991" vertical-scroll-proportion="0.62842894">
+            <state line="122" column="0" selection-start="4118" selection-end="4118" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PriceController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/js/PriceController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="73" selection-start="2319" selection-end="2319" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoctorsTranslationsVOPK.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/DoctorsTranslationsVOPK.java">
+      <file leaf-file-name="price.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/admin/price.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="30" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
+            <state line="11" column="43" selection-start="429" selection-end="429" vertical-scroll-proportion="-3.2692308">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreatmentCategoryTranslationsVOPK.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentCategoryTranslationsVOPK.java">
+      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/admin/styles/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="22" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreatmentsTranslationsVOPK.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentsTranslationsVOPK.java">
+      <file leaf-file-name="treatment.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/admin/styles/treatment.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="44" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0">
+            <state line="13" column="39" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreatmentsTranslationsVO.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentsTranslationsVO.java">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/client/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="47" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoctorsTranslationsVO.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/DoctorsTranslationsVO.java">
+      <file leaf-file-name="TreatmentsController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="58" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TreatmentCategoryTranslationsVO.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentCategoryTranslationsVO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="51" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0">
+            <state line="42" column="0" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -443,10 +465,8 @@
       <file leaf-file-name="TreatmentsModel.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsModel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="37" column="49" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -454,10 +474,17 @@
       <file leaf-file-name="TreatmentsService.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="0" selection-start="1799" selection-end="1799" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="31" column="70" selection-start="994" selection-end="994" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreatmentsVO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentsVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="92" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -481,22 +508,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/EntityManagerProvider.java" />
-        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/language/LanguageService.java" />
-        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/base/ServiceBase.java" />
-        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsController.java" />
-        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsModel.java" />
-        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentCategoryVO.java" />
-        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentsVO.java" />
-        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/DoctorsVO.java" />
-        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/DoctorsTranslationsVOPK.java" />
-        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentCategoryTranslationsVOPK.java" />
-        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentsTranslationsVOPK.java" />
-        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentsTranslationsVO.java" />
-        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/DoctorsTranslationsVO.java" />
-        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentCategoryTranslationsVO.java" />
-        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsService.java" />
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentResponseBuilder.java" />
         <option value="$PROJECT_DIR$/src/META-INF/persistence.xml" />
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/LanguagesVO.java" />
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/language/LanguageModel.java" />
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsModel.java" />
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsController.java" />
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentServlet.java" />
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/dto/TreatmentDTO.java" />
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentsTranslationsVO.java" />
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentJSONBuilder.java" />
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentsVO.java" />
+        <option value="$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsService.java" />
+        <option value="$PROJECT_DIR$/web/js/PriceController.js" />
+        <option value="$PROJECT_DIR$/web/admin/price.html" />
+        <option value="$PROJECT_DIR$/web/admin/styles/treatment.css" />
+        <option value="$PROJECT_DIR$/web/client/index.html" />
       </list>
     </option>
   </component>
@@ -560,6 +587,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -570,37 +598,52 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Modules" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="66" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="70" />
     <property name="Persistence.ERD.GroupObjects" value="false" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Persistence.ERD.MergeEmbedded" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="72" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="71" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="691" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="699" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="72" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="71" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="FullScreen" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="Downloaded.Files.Path" value="D:\DentalClinic\Java\lib" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="Downloaded.Files.Path" value="D:\DentalClinic\Java\lib" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="Persistence.ERD.SimpleMode" value="false" />
-    <property name="project.structure.side.proportion" value="0.3927739" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="DefaultHtmlFileTemplate" value="Html" />
+    <property name="project.structure.side.proportion" value="0.3927739" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="Persistence.ERD.MergeInherited" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -805,19 +848,6 @@
       <option name="trusted" value="true" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -846,6 +876,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -866,6 +909,13 @@
         <option name="engineId" value="embedded" />
         <option name="fileUrl" />
       </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -889,17 +939,15 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local" singleton="true">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" value="embedded" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote">
+      <option name="LOCAL" value="false" />
+      <deployment />
+      <server-settings>
+        <data>
+          <option name="transportHostId" />
+        </data>
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7">
@@ -964,15 +1012,10 @@
       </ConfigurationWrapper>
       <method />
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Remote">
-      <option name="LOCAL" value="false" />
-      <deployment />
-      <server-settings>
-        <data>
-          <option name="transportHostId" />
-        </data>
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="false" name="Tomcat 7" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7">
@@ -1084,6 +1127,11 @@
       <created>1380812048353</created>
       <updated>1380812048353</updated>
     </task>
+    <task id="LOCAL-00001" summary="uncoment lang line">
+      <created>1388493135651</created>
+      <updated>1388493135651</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1107,23 +1155,22 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5005574" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5005574" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24226254" sideWeight="0.08918618" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21184632" sideWeight="0.10367893" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.4914621" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24546425" sideWeight="0.6164994" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.6555184" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40691194" sideWeight="0.69050163" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38350055" sideWeight="0.78548557" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.5005574" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38350055" sideWeight="0.2145144" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24226254" sideWeight="0.17391305" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2664437" sideWeight="0.36499467" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32887402" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26532888" sideWeight="0.36446103" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32604057" sideWeight="0.23608018" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32887402" sideWeight="0.48292422" order="14" side_tool="false" content_ui="tabs" />
@@ -1131,13 +1178,14 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998884" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21184632" sideWeight="0.49944258" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18783352" sideWeight="0.6164994" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3779264" sideWeight="0.5939168" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.5300668" order="9" side_tool="false" content_ui="combo" />
-      <window_info id="JPA Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20117396" sideWeight="0.5957684" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="JPA Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.4914621" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34632516" sideWeight="0.47865528" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1184,7 +1232,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="uncoment lang line" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1198,6 +1246,7 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="uncoment lang line" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -1234,19 +1283,26 @@
     </GetOptions>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/language/LanguageService.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/language/LanguageController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="42" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="32" column="19" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/language/LanguageModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="35" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1257,108 +1313,95 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/language/LanguageController.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/dto/TreatmentDTO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="552" selection-end="564" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="476" selection-end="490" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentsVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="0" selection-start="4636" selection-end="4636" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentCategoryVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="60" selection-start="2353" selection-end="2353" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1780#1813#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/DoctorsTranslationsVOPK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="30" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentCategoryTranslationsVOPK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="22" selection-start="755" selection-end="755" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentsTranslationsVOPK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="44" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0">
+        <state line="62" column="47" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentsTranslationsVO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="47" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0">
+        <state line="57" column="62" selection-start="1424" selection-end="1424" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/DoctorsTranslationsVO.java">
+    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentJSONBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="58" selection-start="1342" selection-end="1342" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentCategoryTranslationsVO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="51" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0">
+        <state line="74" column="80" selection-start="2899" selection-end="2899" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsModel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="1168" selection-end="1168" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="37" column="49" selection-start="993" selection-end="993" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/TreatmentsVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="92" selection-start="1379" selection-end="1379" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/js/PriceController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="73" selection-start="2319" selection-end="2319" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="0" selection-start="1799" selection-end="1799" vertical-scroll-proportion="0.0">
+        <state line="31" column="70" selection-start="994" selection-end="994" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/treatment/TreatmentServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="0" selection-start="4118" selection-end="4118" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/META-INF/persistence.xml">
+    <entry file="file://$PROJECT_DIR$/web/admin/price.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="92" selection-start="1568" selection-end="1568" vertical-scroll-proportion="0.5267606">
+        <state line="11" column="43" selection-start="429" selection-end="429" vertical-scroll-proportion="-3.2692308">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ua/com/dentalclinic/vo/base/DoctorsVO.java">
+    <entry file="file://$PROJECT_DIR$/web/admin/styles/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="56" selection-start="991" selection-end="991" vertical-scroll-proportion="0.62842894">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/styles/treatment.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="39" selection-start="146" selection-end="146" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/client/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

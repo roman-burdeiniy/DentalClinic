@@ -14,11 +14,14 @@ import java.util.Collection;
 @Entity
 @NamedQueries({
         @NamedQuery(name="TreatmentVO.getAllByLangId", query="SELECT t FROM TreatmentsVO t JOIN " +
-                "t.treatmentsTranslationsesById tr WHERE tr.langId = ?1"),
+                "t.treatmentsTranslationsesById tr WHERE tr.langId = :langId AND t.treatmentsByParentTreatmentId.id IS NOT NULL"),
+        @NamedQuery(name="TreatmentVO.getAllCategoryTreatmentsByLangId", query="SELECT t FROM TreatmentsVO t JOIN " +
+                "t.treatmentsTranslationsesById tr WHERE tr.langId = :langId AND t.treatmentsByParentTreatmentId IS NULL"),
         @NamedQuery(name="TreatmentVO.getTreatmentsByCatIdAndLangId", query="SELECT t FROM TreatmentsVO t JOIN " +
-                "t.treatmentsTranslationsesById tr WHERE tr.langId = :langId AND t.treatmentCategoryByCategoryId.id IN :catIds"),
-        @NamedQuery(name="TreatmentVO.getNonCatigorized", query="SELECT t FROM TreatmentsVO t JOIN " +
-                "t.treatmentsTranslationsesById tr WHERE tr.langId = :langId AND t.treatmentCategoryByCategoryId.id IS NULL")
+                "t.treatmentsTranslationsesById tr WHERE tr.langId = :langId AND t.treatmentsByParentTreatmentId.id IS NOT NULL AND " +
+                "t.treatmentsByParentTreatmentId.treatmentsByParentTreatmentId.id IN :catIds")
+       /* @NamedQuery(name="TreatmentVO.getNonCatigorized", query="SELECT t FROM TreatmentsVO t JOIN " +
+                "t.treatmentsTranslationsesById tr WHERE tr.langId = :langId AND t.treatmentCategoryByCategoryId.id IS NULL")*/
 })
 public class TreatmentsVO {
     private int id;
@@ -33,42 +36,6 @@ public class TreatmentsVO {
         this.id = id;
     }
 
-    private Integer lowPrice;
-
-    @javax.persistence.Column(name = "LowPrice")
-    @Basic
-    public Integer getLowPrice() {
-        return lowPrice;
-    }
-
-    public void setLowPrice(Integer lowPrice) {
-        this.lowPrice = lowPrice;
-    }
-
-    private Integer topPrice;
-
-    @javax.persistence.Column(name = "TopPrice")
-    @Basic
-    public Integer getTopPrice() {
-        return topPrice;
-    }
-
-    public void setTopPrice(Integer topPrice) {
-        this.topPrice = topPrice;
-    }
-
-    private String guaranty;
-
-    @javax.persistence.Column(name = "Guaranty")
-    @Basic
-    public String getGuaranty() {
-        return guaranty;
-    }
-
-    public void setGuaranty(String guaranty) {
-        this.guaranty = guaranty;
-    }
-
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -77,9 +44,6 @@ public class TreatmentsVO {
         TreatmentsVO that = (TreatmentsVO) o;
 
         if (id != that.id) return false;
-        if (guaranty != null ? !guaranty.equals(that.guaranty) : that.guaranty != null) return false;
-        if (lowPrice != null ? !lowPrice.equals(that.lowPrice) : that.lowPrice != null) return false;
-        if (topPrice != null ? !topPrice.equals(that.topPrice) : that.topPrice != null) return false;
 
         return true;
     }
@@ -87,22 +51,7 @@ public class TreatmentsVO {
     @Override
     public int hashCode() {
         int result = id;
-        result = 31 * result + (lowPrice != null ? lowPrice.hashCode() : 0);
-        result = 31 * result + (topPrice != null ? topPrice.hashCode() : 0);
-        result = 31 * result + (guaranty != null ? guaranty.hashCode() : 0);
         return result;
-    }
-
-    private TreatmentCategoryVO treatmentCategoryByCategoryId;
-
-    @ManyToOne
-    @javax.persistence.JoinColumn(name = "CategoryId", referencedColumnName = "Id")
-    public TreatmentCategoryVO getTreatmentCategoryByCategoryId() {
-        return treatmentCategoryByCategoryId;
-    }
-
-    public void setTreatmentCategoryByCategoryId(TreatmentCategoryVO treatmentCategoryByCategoryId) {
-        this.treatmentCategoryByCategoryId = treatmentCategoryByCategoryId;
     }
 
     private TreatmentsVO treatmentsByParentTreatmentId;

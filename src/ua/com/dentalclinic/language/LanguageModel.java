@@ -15,7 +15,7 @@ import java.util.List;
 public class LanguageModel {
     
     public static LanguagesVO CURRENT_LANGUAGE;
-    private final String DEFAULT_LANGUAGE = "ru_RU";
+    private final String DEFAULT_LANGUAGE = "uk_UA";
 
     public static final String[] codes = {
                                         "en_US", "ru_RU"

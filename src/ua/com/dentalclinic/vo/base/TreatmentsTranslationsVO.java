@@ -52,7 +52,7 @@ public class TreatmentsTranslationsVO {
         this.name = name;
     }
 
-    private String description;
+    private String description = "";
 
     @javax.persistence.Column(name = "Description")
     @Basic
@@ -64,6 +64,30 @@ public class TreatmentsTranslationsVO {
         this.description = description;
     }
 
+    private String guaranty = "";
+
+    @javax.persistence.Column(name = "Guaranty")
+    @Basic
+    public String getGuaranty() {
+        return guaranty;
+    }
+
+    public void setGuaranty(String guaranty) {
+        this.guaranty = guaranty;
+    }
+
+    private String price;
+
+    @javax.persistence.Column(name = "Price")
+    @Basic
+    public String getPrice() {
+        return price;
+    }
+
+    public void setPrice(String price) {
+        this.price = price;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -73,8 +97,10 @@ public class TreatmentsTranslationsVO {
 
         if (langId != that.langId) return false;
         if (treatmentId != that.treatmentId) return false;
+        if (guaranty != null ? !guaranty.equals(that.guaranty) : that.guaranty != null) return false;
         if (description != null ? !description.equals(that.description) : that.description != null) return false;
         if (name != null ? !name.equals(that.name) : that.name != null) return false;
+        if (price != null ? !price.equals(that.price) : that.price != null) return false;
 
         return true;
     }
@@ -84,7 +110,9 @@ public class TreatmentsTranslationsVO {
         int result = treatmentId;
         result = 31 * result + langId;
         result = 31 * result + (name != null ? name.hashCode() : 0);
+        result = 31 * result + (guaranty != null ? guaranty.hashCode() : 0);
         result = 31 * result + (description != null ? description.hashCode() : 0);
+        result = 31 * result + (price != null ? price.hashCode() : 0);
         return result;
     }
 

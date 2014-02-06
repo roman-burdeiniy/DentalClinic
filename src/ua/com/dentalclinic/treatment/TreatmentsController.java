@@ -1,12 +1,12 @@
 package ua.com.dentalclinic.treatment;
 
-import ua.com.dentalclinic.vo.base.TreatmentCategoryVO;
 import ua.com.dentalclinic.vo.base.TreatmentsVO;
 
 import javax.annotation.ManagedBean;
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -33,16 +33,6 @@ public class TreatmentsController {
         return model.getAllTreatments();
     }
 
-    public List<TreatmentCategoryVO> getAllCategories()
-    {
-        return model.getAllCategories();
-    }
-
-    public int insertCategory(String name)
-    {
-        return model.insertCategory(name);
-    }
-
     public int insertTreatment(int catId, String name, int lowPrice, int topPrice, String description, ArrayList<String> imagesURL)
     {
         return model.insertTreatment(catId, name, lowPrice, topPrice,  description, imagesURL);
@@ -50,6 +40,18 @@ public class TreatmentsController {
 
     public List<TreatmentsVO> getTreatmentsByCategories(String[] categoryIds)
     {
-        return model.getTreatmentsByCategories(categoryIds);
+        if (Arrays.asList(categoryIds).contains(String.valueOf(TreatmentsModel.ALL_CATEGORY_ID)))
+        {
+            return model.getAllTreatments();
+        }
+        else
+        {
+            return model.getTreatmentsByCategories(categoryIds);
+        }
+    }
+
+    public List<TreatmentsVO> getAllCategories()
+    {
+        return model.getAllCategories();
     }
 }

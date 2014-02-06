@@ -1,7 +1,6 @@
 
 section#tableSection
 {
-    width: 600px;
     padding-left: 15px;
 }
 
@@ -28,7 +27,7 @@ section#categorySection
 
 .descriptionLabel
 {
-    width: 300px;
+    width: 250px;
     text-overflow: ellipsis;
     display: inline-block;
     white-space: nowrap;

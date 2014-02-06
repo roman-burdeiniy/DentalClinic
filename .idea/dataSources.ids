@@ -100,18 +100,12 @@
     </table>
     <table name="treatments" schema="" catalog="dentalclinicdb" type="TABLE">
       <column name="Id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
-      <column name="LowPrice" sqlType="MEDIUMINT UNSIGNED" length="8" precision="0" nullable="true" jdbcType="4"/>
-      <column name="TopPrice" sqlType="MEDIUMINT UNSIGNED" length="8" precision="0" nullable="true" jdbcType="4"/>
-      <column name="CategoryId" sqlType="INT UNSIGNED" length="10" precision="0" nullable="true" jdbcType="4"/>
-      <column name="Guaranty" sqlType="VARCHAR" length="45" precision="0" nullable="true" jdbcType="12"/>
       <column name="ParentTreatmentId" sqlType="INT UNSIGNED" length="10" precision="0" nullable="true" jdbcType="4"/>
       <primary-key name="PRIMARY" columns="Id"/>
-      <foreign-key name="Treatment_To_Category" columns="CategoryId" ref-table="treatment_category" ref-schema="" ref-catalog="dentalclinicdb" ref-columns="Id" update-rule="3" delete-rule="0" deferrability="2"/>
       <foreign-key name="Treatment_To_Treatment" columns="ParentTreatmentId" ref-table="treatments" ref-schema="" ref-catalog="dentalclinicdb" ref-columns="Id" update-rule="3" delete-rule="0" deferrability="2"/>
       <exported-key name="Treatment_To_Treatment" table="treatments" schema="" catalog="dentalclinicdb" columns="ParentTreatmentId"/>
       <exported-key name="Treatment_To_Image_FK" table="treatments_images" schema="" catalog="dentalclinicdb" columns="TreatmentId"/>
       <exported-key name="Treatment_To_Translation_FK" table="treatments_translations" schema="" catalog="dentalclinicdb" columns="TreatmentId"/>
-      <index name="Treatment_To_Category_idx" unique="false" columns="CategoryId"/>
       <index name="Treatment_To_Treatment_idx" unique="false" columns="ParentTreatmentId"/>
     </table>
     <table name="treatments_images" schema="" catalog="dentalclinicdb" type="TABLE">
@@ -128,6 +122,8 @@
       <column name="LangId" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
       <column name="Name" sqlType="MEDIUMTEXT" length="16777215" precision="0" nullable="true" jdbcType="-1"/>
       <column name="Description" sqlType="TEXT" length="65535" precision="0" nullable="true" jdbcType="-1"/>
+      <column name="Guaranty" sqlType="VARCHAR" length="45" precision="0" nullable="true" jdbcType="12"/>
+      <column name="Price" sqlType="VARCHAR" length="45" precision="0" nullable="true" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="TreatmentId,LangId"/>
       <foreign-key name="Treatment_To_Lang_FK" columns="LangId" ref-table="languages" ref-schema="" ref-catalog="dentalclinicdb" ref-columns="Id" update-rule="3" delete-rule="0" deferrability="2"/>
       <foreign-key name="Treatment_To_Translation_FK" columns="TreatmentId" ref-table="treatments" ref-schema="" ref-catalog="dentalclinicdb" ref-columns="Id" update-rule="3" delete-rule="0" deferrability="2"/>
