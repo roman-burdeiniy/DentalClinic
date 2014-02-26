@@ -1,0 +1,96 @@
+/*
+ * jQuery UI Menubar @VERSION
+ *
+ * Copyright 2011, AUTHORS.txt (http://jqueryui.com/about)
+ * Dual licensed under the MIT or GPL Version 2 licenses.
+ * http://jquery.org/license
+ */
+.ui-menubar {
+	list-style: none;
+    height: 33px;
+    border-style: none;
+    background: -webkit-linear-gradient(#FF7011, #D45400); /* For Safari */
+    background: -o-linear-gradient(#FF7011, #D45400); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FF7011, #D45400); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FF7011, #D45400); /* Standard syntax */
+	margin: 0; padding-left: 0;
+}
+
+.ui-menubar-item {
+	float: left;
+    background-image: -webkit-linear-gradient(#FF6A08, #DC5700, #D45400), -webkit-linear-gradient(#FF771D, #FF812E, #DD5800);
+    background-image: -moz-linear-gradient(#FF6A08, #DC5700, #D45400), -moz-linear-gradient(#FF771D, #FF812E, #DD5800);
+    background-image: -o-linear-gradient(#FF6A08, #DC5700, #D45400), -o-linear-gradient(#FF771D, #FF812E, #DD5800);
+    background-image: linear-gradient(#FF6A08, #DC5700, #D45400), linear-gradient(#FF771D, #FF812E, #DD5800);
+    -moz-background-size:1px 100%;
+
+    background-size:1px 100%;
+    background-position:0 0, 100% 0;
+    background-repeat:no-repeat;
+}
+
+.first-menu-item
+{
+    background-image: -webkit-linear-gradient(#FF771D, #FF812E, #DD5800);
+    background-image:  -moz-linear-gradient(#FF771D, #FF812E, #DD5800);
+    background-image:  -o-linear-gradient(#FF771D, #FF812E, #DD5800);
+    background-image:  linear-gradient(#FF771D, #FF812E, #DD5800);
+    -moz-background-size:1px 100%;
+    background-position: right center;
+    background-repeat:no-repeat;
+}
+
+.last-menu-item
+{
+    background-image: -webkit-linear-gradient(#FF6A08, #DC5700, #D45400);
+    background-image: -moz-linear-gradient(#FF6A08, #DC5700, #D45400);
+    background-image: -o-linear-gradient(#FF6A08, #DC5700, #D45400);
+    background-image: linear-gradient(#FF6A08, #DC5700, #D45400);
+    -moz-background-size:1px 100%;
+    background-position: left center;
+    background-repeat:no-repeat;
+}
+
+.ui-menubar .ui-button {
+	float: left;
+    height: 33px;
+	font-weight: bold;
+    color: #FFFFFF;
+	border-top-width: 0 !important;
+	border-bottom-width: 0 !important;
+	margin: 0;
+	outline: none;
+}
+
+.ui-menubar .ui-button:hover {
+    background: -webkit-linear-gradient(#FF7011, #D45400); /* For Safari */
+    background: -o-linear-gradient(#FF7011, #D45400); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FF7011, #D45400); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FF7011, #D45400); /* Standard syntax */
+}
+
+.ui-menubar .ui-button-active {
+    background: -webkit-linear-gradient(#FF7011, #D45400); /* For Safari */
+    background: -o-linear-gradient(#FF7011, #D45400); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FF7011, #D45400); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FF7011, #D45400); /* Standard syntax */
+}
+
+.ui-menubar .ui-button-active:hover {
+    background: -webkit-linear-gradient(#FF7011, #D45400); /* For Safari */
+    background: -o-linear-gradient(#FF7011, #D45400); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#FF7011, #D45400); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#FF7011, #D45400); /* Standard syntax */
+}
+
+.ui-menubar .ui-menubar-link {
+	border-right: 1px solid transparent;
+	border-left: 1px solid transparent;
+}
+
+.ui-menubar .ui-menu {
+	width: 200px;
+	position: absolute;
+	z-index: 9999;
+	font-weight: normal;
+}

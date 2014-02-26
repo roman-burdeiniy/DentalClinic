@@ -1,0 +1,148 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 14px;
+    background-color: #B24926;
+   /* background-image: url("../images/body-bg.png");*/
+}
+
+#wrapper
+{
+    background-color: #FFFFFF;
+    max-width: 1325px;
+    min-width: 780px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+#headerSection
+{
+    height: 180px;
+    max-width: 1325px;
+    min-width: 780px;
+    position: relative;
+    background: -webkit-linear-gradient(#FAFAFA, #ECECEE); /* For Safari */
+    background: -o-linear-gradient(FAFAFA, #ECECEE); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(FAFAFA, #ECECEE); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(FAFAFA, #ECECEE); /* Standard syntax */
+     /* border-color: #FF0000;
+     border-style: solid;*/
+}
+
+#leftSection
+{
+    vertical-align: middle;
+    left:0px;
+    top:0px;
+    position:absolute;
+    width:320px;
+    height: 180px;
+  /*  border-color: #FF0000;
+    border-style: solid;*/
+}
+
+.headerImage
+{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#centerSection
+{
+    height: 180px;
+    min-width: 368px;
+    margin-left:320px;
+    margin-right: 210px;
+}
+
+
+#rightSection
+{
+    width: 220px;
+    position:absolute;
+    right: 20px;
+    top: 110px;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-align: right;
+    color: #F97222;
+    vertical-align: bottom;
+}
+
+.headerLine
+{
+    background-color: #FAA523;
+    height: 1px;
+    width: 100%;
+}
+
+#navigationMenuSection
+{
+    background-color: #4A5155;
+    width: 100%;
+    position: relative;
+    height: 41px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 0 7px 20px -6px #000000;
+}
+
+#menu
+{
+    position: relative;
+    top: 8px;
+    padding-left: 15px;
+}
+
+#topBorderLine
+{
+   height: 1px;
+   width: 100%;
+   left: 0px;
+   top: 8px;
+   position: absolute;
+   background-color: #FF8A3C;
+}
+
+#marker
+{
+    background-color: #FFFFFF;
+    opacity: 0.04;
+    display: none;
+    left: 150px;
+    height: 33px;
+    width: 50px;
+    pointer-events:none;
+    box-shadow: 0px 0px 20px #FFFFFF;
+}
+
+#markerTop
+{
+    position: relative;
+    left: 150px;
+    width: 50px;
+    display: none;
+    background-color: #FFFFFF;
+    height: 1px;
+    width: 50px;
+    pointer-events:none;
+    opacity: 0.7;
+    box-shadow: 0px -1px 2px #FFFFFF;
+}
+
+#markerBottom
+{
+    position: relative;
+    left: 150px;
+    display: none;
+    background-color: #FFFFFF;
+    height: 1px;
+    pointer-events:none;
+    width: 50px;
+    opacity: 0.7;
+    box-shadow: 0px 1px 2px #FFFFFF;
+}
+
