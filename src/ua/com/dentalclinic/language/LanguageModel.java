@@ -1,6 +1,6 @@
 package ua.com.dentalclinic.language;
 
-import ua.com.dentalclinic.vo.ITranslationVO;
+import ua.com.dentalclinic.vo.TranslationVO;
 import ua.com.dentalclinic.vo.base.LanguagesVO;
 
 import java.util.List;
@@ -40,18 +40,6 @@ public class LanguageModel {
                  break;
              }
          }
-    }
-
-    public ITranslationVO getCurrentTranslation(List<ITranslationVO> translations)
-    {
-        if (translations == null)
-            return null;
-        for (ITranslationVO translation : translations)
-        {
-             if (translation.getLangId() == CURRENT_LANGUAGE.getId())
-                 return translation;
-        }
-        return null;
     }
 
 

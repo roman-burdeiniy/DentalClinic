@@ -38,7 +38,7 @@ public class TreatmentJSONBuilder {
         }
         if (categoriesToSend.size() > 0)
         {
-            result.put("categories", categoriesToSend);
+            result.put("data", categoriesToSend);
         }
         return result;
     }
@@ -78,7 +78,7 @@ public class TreatmentJSONBuilder {
             }
 
         }
-        result.put("prices", treatmentsToSend);
+        result.put("data", treatmentsToSend);
         return result;
     }
 

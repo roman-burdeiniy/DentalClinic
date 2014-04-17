@@ -88,15 +88,15 @@ public class WorkingHoursVO {
         return result;
     }
 
-    private DoctorsVO doctorsByDoctorId;
+    private StaffVO staffByDoctorId;
 
     @ManyToOne
     @javax.persistence.JoinColumn(name = "DoctorId", referencedColumnName = "Id", nullable = false)
-    public DoctorsVO getDoctorsByDoctorId() {
-        return doctorsByDoctorId;
+    public StaffVO getStaffByDoctorId() {
+        return staffByDoctorId;
     }
 
-    public void setDoctorsByDoctorId(DoctorsVO doctorsByDoctorId) {
-        this.doctorsByDoctorId = doctorsByDoctorId;
+    public void setStaffByDoctorId(StaffVO doctorsByDoctorId) {
+        this.staffByDoctorId = staffByDoctorId;
     }
 }

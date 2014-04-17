@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE HTML>
+<div id="doctorsTab">
+    <section id="doctorsHolderSection">
+        <section id="addNewSection"><img id="addImage" src="../admin/images/arrow-right.png"/>
+            <section id="addNewTextSection">Додати нового працівника</section></section>
+        <section id="doctorsCardContent">
+            <form id="addEmployeeForm" action="../admin/servlet/staffServlet">
+                <fieldset>
+                    <legend>Картка працівника</legend>
+                    <label for="positionSelect">Посада</label>
+                    <select id="positionSelect" name="positionSelect" class="createEmployyeFormSelect">
+                    </select><br/>
+                    <label for="firstName">Ім'я</label>
+                    <input type="text" name="firstName" id="firstName"/><br/>
+                    <label for="lastName">Фамілія</label>
+                    <input type="text" name="lastName" id="lastName"/><br/>
+                    <label for="middleName">По батькові</label>
+                    <input type="text" name="middleName" id="middleName"/><br/>
+                    <label for="speciality">Спеціалізація</label>
+                    <input type="text" name="speciality" id="speciality"/><br/>
+                    <label for="gender">Стать</label>
+                    <select id="gender" name="gender" class="createEmployyeFormSelect">
+                        <option value="1">Чол</option>
+                        <option value="2">Жін</option>
+                    </select><br/>
+                    <label for="phoneNum">Телефон</label>
+                    <input type="text" name="phoneNum" id="phoneNum"/><br>
+                    <label for="education">Освіта</label>
+                    <textarea id="education" name="education" rows="4" cols="50"/><br>
+                    <div class="button_div">
+                        <input id="submitAddEmployee" type="submit" name="addEmployee">
+                        <input id="cancelButton" type="reset">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+        <section id="doctorsTableSection">
+            <table id="doctorsTable" class="display">
+                <thead>
+                <tr>
+                    <th width="100px">Position</th>
+                    <th width="300px">Name</th>
+                    <th width="250px">Speciality</th>
+                    <th width="100px">Gender</th>
+                    <th width="250px">MobNumber</th>
+                    <th width="300px">Education</th>
+                </tr>
+                </thead>
+            </table>
+        </section>
+    </section>
+</div>

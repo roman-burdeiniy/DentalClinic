@@ -29,22 +29,4 @@ public class EntityManagerProvider implements Serializable {
         return em;
     }
 
-
-   /* public static void init(EntityManager em)
-    {
-        emf = Persistence.createEntityManagerFactory("persistenceUnit");
-    }
-
-    public static void destroy()
-    {
-        emf.close();
-    }
-
-    public static EntityManager createEntityManager() throws IllegalStateException, Exception {
-        if (emf == null) {
-            throw new IllegalStateException("Context is not initialized yet.");
-        }
-        return emf.createEntityManager();
-    }*/
-
 }

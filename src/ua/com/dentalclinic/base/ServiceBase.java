@@ -1,8 +1,11 @@
 package ua.com.dentalclinic.base;
 
+import ua.com.dentalclinic.ApplicationInitManager;
 import ua.com.dentalclinic.EntityManagerProvider;
 
 import javax.annotation.ManagedBean;
+import javax.annotation.Resource;
+import javax.ejb.Stateless;
 import javax.enterprise.context.RequestScoped;
 import javax.inject.Inject;
 import javax.inject.Named;
@@ -10,6 +13,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.PersistenceContextType;
 import javax.persistence.Query;
+import javax.transaction.UserTransaction;
 import java.util.List;
 
 /**
@@ -19,11 +23,15 @@ import java.util.List;
  * Time: 3:45 PM
  * To change this template use File | Settings | File Templates.
  */
-@Named
 public class ServiceBase {
 
-    @Inject
+    @PersistenceContext
     public EntityManager em;
+
+    public ServiceBase()
+    {
+
+    }
 
     protected List<?> getItems(String queryName, Object... params)
     {

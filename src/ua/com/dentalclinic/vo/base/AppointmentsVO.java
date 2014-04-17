@@ -20,7 +20,7 @@ public class AppointmentsVO {
     private Timestamp preferredDateTime;
     private Timestamp actualDateTime;
     private String comments;
-    private DoctorsVO doctorsByDoctorId;
+    private StaffVO staffByDoctorId;
     private PatientsVO patientsByPatientId;
 
     @javax.persistence.Column(name = "Id")
@@ -91,12 +91,12 @@ public class AppointmentsVO {
 
     @ManyToOne
     @javax.persistence.JoinColumn(name = "DoctorId", referencedColumnName = "Id")
-    public DoctorsVO getDoctorsByDoctorId() {
-        return doctorsByDoctorId;
+    public StaffVO getStaffByDoctorId() {
+        return staffByDoctorId;
     }
 
-    public void setDoctorsByDoctorId(DoctorsVO doctorsByDoctorId) {
-        this.doctorsByDoctorId = doctorsByDoctorId;
+    public void setStaffByDoctorId(StaffVO staffByDoctorId) {
+        this.staffByDoctorId = staffByDoctorId;
     }
 
     @ManyToOne

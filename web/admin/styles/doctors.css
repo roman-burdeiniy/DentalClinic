@@ -1,0 +1,199 @@
+#addNewSection
+{
+    width: 230px;
+    height: 30px;
+}
+
+#addNewTextSection
+{
+    margin-left: 15px;
+    padding-left: 10px;
+    color: #0074C7;
+    cursor: hand;
+    text-decoration: underline;
+}
+
+#doctorsHolderSection
+{
+   padding-left: 15px;
+}
+
+.rowIcon
+{
+    cursor: hand;
+}
+
+.rowIconDiv
+{
+    float: left;
+    padding-right: 5px;
+}
+
+#addImage
+{
+    float: left;
+    cursor: hand;
+    margin-top: 2px;
+}
+
+#doctorsTableSection{
+    width: 1300px;
+}
+
+#doctorsCardContent{
+    width: 700px;
+    display: none;
+}
+
+.educationLabel
+{
+    width: 300px;
+    text-overflow: ellipsis;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: top;
+    cursor:pointer;
+}
+
+select.option:hover
+{
+    border: 1px solid #a45b13;
+}
+
+.createEmployyeFormSelect
+ {
+     width: 185px;
+ }
+
+form .ui-multiselect
+{
+    margin-left: 16px;
+}
+
+.ui-tooltip, .arrow:after {
+    background: #FC3E2E;
+}
+.ui-tooltip {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    color: white;
+    border-radius: 20px;
+    font: bold 14px"Helvetica Neue", Sans-Serif;
+   text-align: center;
+    box-shadow: 0 0 7px black;
+
+}
+.arrow {
+    width: 70px;
+    height: 16px;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    margin-left: -35px;
+    bottom: -16px;
+}
+
+.arrow.top {
+    top: -16px;
+    bottom: auto;
+}
+.arrow.left {
+    left: 20%;
+}
+.arrow:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: -20px;
+    width: 25px;
+    height: 25px;
+    box-shadow: 6px 5px 9px -9px black;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    tranform: rotate(45deg);
+}
+.arrow.top:after {
+    bottom: -20px;
+    top: auto;
+}
+
+.alert-button{
+    background-color: #FFD448;
+    border-radius: 5px;
+    border-style:none;
+    cursor: hand;
+    color: #4C301A;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+    border-color: #FFFFFF;
+}
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+ * General doctors table setup
+ */
+#doctorsTable {
+    font: 80%/1.45em "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #fff;
+}
+
+.css_right {
+    float: right;
+}
+
+.css_left {
+    float: left;
+}
+
+#treatmentsTable.table-row
+{
+    cursor:pointer;
+}
+
+table.dataTable tr.odd { background-color: #DDFFDD; }
+table.dataTable tr.even { background-color: #EEFFEE; }
+
+table.dataTable tr.odd:hover { background-color: #F7CD8A; }
+table.dataTable tr.even:hover { background-color: #F7CD8A; }
+
+.educationLabel-tooltip-styling
+{
+    font-style: normal;
+    font-size: 12px;
+}
+
+.nameLabel-remove-tooltip-styling
+{
+    font-style: normal;
+    font-size: 12px;
+}
+
+.ui-state-hover-multiselect,
+.ui-widget-content .ui-state-hover-multiselect,
+.ui-widget-header .ui-state-hover-multiselect,
+.ui-state-active,
+.ui-state-focus {
+    border: 1px solid #a45b13;
+    background: #ffdd57 url(../../styles/images/ui-bg_gloss-wave_70_ffdd57_500x100.png) 50% 50% repeat-x;
+    font-weight: normal;
+    color: #381f00;
+}
+
+.ui-multiselect-checkboxes .ui-state-active,
+.ui-multiselect-checkboxes .ui-widget-content .ui-state-active,
+.ui-multiselect-checkboxes .ui-widget-header .ui-state-active {
+    border: 1px solid #a45b13;
+    background: #ffdd57 url(../../styles/images/ui-bg_gloss-wave_70_ffdd57_500x100.png) 50% 50% repeat-x;
+    font-weight: normal;
+    color: #381f00;
+}
+
+

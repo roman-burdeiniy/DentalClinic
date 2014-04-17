@@ -17,6 +17,11 @@ import java.util.List;
  */
 public class TreatmentsService extends ServiceBase {
 
+    public TreatmentsService()
+    {
+        super();
+    }
+
     public List<TreatmentsVO> getAllTreatments(int langId)
     {
         List<TreatmentsVO> results = em.createNamedQuery("TreatmentVO.getAllByLangId")
@@ -44,7 +49,6 @@ public class TreatmentsService extends ServiceBase {
 
     public int insertTreatment(TreatmentsVO item)
     {
-
         em.getTransaction().begin();
         em.persist(item);
         em.getTransaction().commit();

@@ -56,11 +56,11 @@ section#categorySection
 }
 
 .expanded-group {
-    background: url("../images/minus.jpg") no-repeat scroll right center transparent;
+    background: url("../../styles/images/minus.jpg") no-repeat scroll right center transparent;
 }
 
 .collapsed-group {
-    background: url("../images/plus.jpg") no-repeat scroll right center transparent;
+    background: url("../../styles/images/plus.jpg") no-repeat scroll right center transparent;
 }
 
 .subgroup{
@@ -74,15 +74,21 @@ td.group {
     border-top: 2px solid #A19B9E;
 }
 
+#treatmentsTable.table-row
+{
+    cursor:pointer;
+}
+
+table.dataTable tr.odd { background-color: #DDFFDD; }
+table.dataTable tr.even { background-color: #EEFFEE; }
+
+table.dataTable tr.odd:hover { background-color: #F7CD8A; }
+table.dataTable tr.even:hover { background-color: #F7CD8A; }
+
 .description-tooltip-styling
 {
     font-style: normal;
     font-size: 12px;
-}
-
-#treatmentsTable.table-row
-{
-    cursor:pointer;
 }
 
 .ui-state-hover-multiselect,
@@ -99,15 +105,6 @@ select.option:hover
 {
     border: 1px solid #a45b13;
 }
-
-
-table.dataTable tr.odd { background-color: #DDFFDD; }
-table.dataTable tr.even { background-color: #EEFFEE; }
-
-table.dataTable tr.odd:hover { background-color: #F7CD8A; }
-table.dataTable tr.even:hover { background-color: #F7CD8A; }
-
-
 
 form{
     float:none;

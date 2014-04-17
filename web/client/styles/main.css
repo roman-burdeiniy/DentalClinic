@@ -1,0 +1,52 @@
+#mainSection
+{
+    height: 100%;
+    text-align: center;
+    padding-top: 2px;
+    vertical-align: middle;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#mainHeader
+{
+    font-family: 'Noto Serif', serif;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 35px;
+    color: #C29239;
+    text-align: left;
+}
+
+#headerLine
+{
+    background-color: #000000;
+    height: 1px;
+    width: 100%;
+}
+
+#mainText
+{
+    padding-top: 20px;
+    font-size: 17px;
+    text-align: left;
+    font-weight: normal;
+}
+
+#subHeader
+{
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#welcomeImage
+{
+    float: left;
+    margin: 1em 1em 10px 0;
+}
+
+
+
+
+
+

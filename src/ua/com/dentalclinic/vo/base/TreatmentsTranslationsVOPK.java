@@ -15,16 +15,16 @@ public class TreatmentsTranslationsVOPK implements Serializable {
     private int treatmentId;
     private int langId;
 
-@Id@Column(name = "TreatmentId", insertable = false, updatable = false)
-public int getTreatmentId() {
-    return treatmentId;
-}
+    @Id@Column(name = "TreatmentId")
+    public int getTreatmentId() {
+        return treatmentId;
+    }
 
     public void setTreatmentId(int treatmentId) {
         this.treatmentId = treatmentId;
     }
 
-    @Id@Column(name = "LangId", insertable = false, updatable = false)
+    @Id@Column(name = "LangId")
     public int getLangId() {
         return langId;
     }

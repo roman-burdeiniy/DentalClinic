@@ -16,16 +16,16 @@
     <schema name="" catalog="dentalclinicdb"/>
     <table name="appointments" schema="" catalog="dentalclinicdb" type="TABLE">
       <column name="Id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
-      <column name="PatientId" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="PatientId" sqlType="INT UNSIGNED" length="10" precision="0" nullable="true" jdbcType="4"/>
       <column name="DoctorId" sqlType="INT UNSIGNED" length="10" precision="0" nullable="true" jdbcType="4"/>
       <column name="PreferredDateTime" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93"/>
       <column name="ActualDateTime" sqlType="DATETIME" length="19" precision="0" nullable="true" jdbcType="93"/>
       <column name="Comments" sqlType="TEXT" length="65535" precision="0" nullable="true" jdbcType="-1"/>
       <primary-key name="PRIMARY" columns="Id"/>
-      <foreign-key name="Appointment_To_Doctor_FK" columns="DoctorId" ref-table="doctors" ref-schema="" ref-catalog="dentalclinicdb" ref-columns="Id" update-rule="3" delete-rule="3" deferrability="2"/>
-      <foreign-key name="Appointment_To_Patient_FK" columns="PatientId" ref-table="patients" ref-schema="" ref-catalog="dentalclinicdb" ref-columns="Id" update-rule="3" delete-rule="3" deferrability="2"/>
-      <index name="Appointment_To_Patient_FK_idx" unique="false" columns="PatientId"/>
-      <index name="DoctorId_FK_idx" unique="false" columns="DoctorId"/>
+      <foreign-key name="App_To_Doctors" columns="DoctorId" ref-table="staff" ref-schema="" ref-catalog="dentalclinicdb" ref-columns="Id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="App_To_Patients" columns="PatientId" ref-table="patients" ref-schema="" ref-catalog="dentalclinicdb" ref-columns="Id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <index name="App_To_Doctors_idx" unique="false" columns="DoctorId"/>
+      <index name="App_To_Patients_idx" unique="false" columns="PatientId"/>
     </table>
     <table name="clinic_gallery" schema="" catalog="dentalclinicdb" type="TABLE">
       <column name="Id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
@@ -33,37 +33,12 @@
       <column name="Url" sqlType="MEDIUMTEXT" length="16777215" precision="0" nullable="false" jdbcType="-1"/>
       <primary-key name="PRIMARY" columns="Id"/>
     </table>
-    <table name="doctors" schema="" catalog="dentalclinicdb" type="TABLE">
-      <column name="Id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
-      <column name="DateOfBirth" sqlType="DATE" length="10" precision="0" nullable="true" jdbcType="91"/>
-      <column name="Gender" sqlType="CHAR" length="1" precision="0" nullable="false" jdbcType="1"/>
-      <column name="MobNumber" sqlType="VARCHAR" length="15" precision="0" nullable="true" jdbcType="12"/>
-      <column name="HomeNumber" sqlType="VARCHAR" length="15" precision="0" nullable="true" jdbcType="12"/>
-      <column name="YearsOfExperience" sqlType="TINYINT" length="3" precision="0" nullable="true" jdbcType="-6"/>
-      <primary-key name="PRIMARY" columns="Id"/>
-      <exported-key name="Appointment_To_Doctor_FK" table="appointments" schema="" catalog="dentalclinicdb" columns="DoctorId"/>
-      <exported-key name="Doctor_To_Translations_FK" table="doctors_translations" schema="" catalog="dentalclinicdb" columns="DoctorId"/>
-      <exported-key name="WH_To_Doctor_FK" table="working_hours" schema="" catalog="dentalclinicdb" columns="DoctorId"/>
-    </table>
-    <table name="doctors_translations" schema="" catalog="dentalclinicdb" type="TABLE">
-      <column name="DoctorId" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
-      <column name="LangId" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
-      <column name="FirstName" sqlType="VARCHAR" length="30" precision="0" nullable="false" jdbcType="12"/>
-      <column name="LastName" sqlType="VARCHAR" length="30" precision="0" nullable="false" jdbcType="12"/>
-      <column name="Speciality" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
-      <column name="Education" sqlType="TEXT" length="65535" precision="0" nullable="true" jdbcType="-1"/>
-      <primary-key name="PRIMARY" columns="DoctorId,LangId"/>
-      <foreign-key name="Doctor_To_Lang_FK" columns="LangId" ref-table="languages" ref-schema="" ref-catalog="dentalclinicdb" ref-columns="Id" update-rule="3" delete-rule="0" deferrability="2"/>
-      <foreign-key name="Doctor_To_Translations_FK" columns="DoctorId" ref-table="doctors" ref-schema="" ref-catalog="dentalclinicdb" ref-columns="Id" update-rule="3" delete-rule="0" deferrability="2"/>
-      <index name="DoctorId_FK_idx" unique="false" columns="DoctorId"/>
-      <index name="LangId_FK_idx" unique="false" columns="LangId"/>
-    </table>
     <table name="languages" schema="" catalog="dentalclinicdb" type="TABLE">
       <column name="Id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="Code" sqlType="VARCHAR" length="5" precision="0" nullable="false" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="Id"/>
-      <exported-key name="Doctor_To_Lang_FK" table="doctors_translations" schema="" catalog="dentalclinicdb" columns="LangId"/>
-      <exported-key name="Cat_Translation_To_Lang" table="treatment_category_translations" schema="" catalog="dentalclinicdb" columns="LangId"/>
+      <exported-key name="Position_tr_to_Lang" table="positions_translations" schema="" catalog="dentalclinicdb" columns="LangId"/>
+      <exported-key name="Doctor_To_Lang_FK" table="staff_translations" schema="" catalog="dentalclinicdb" columns="LangId"/>
       <exported-key name="Treatment_To_Lang_FK" table="treatments_translations" schema="" catalog="dentalclinicdb" columns="LangId"/>
     </table>
     <table name="patients" schema="" catalog="dentalclinicdb" type="TABLE">
@@ -75,28 +50,61 @@
       <column name="PhoneNumber" sqlType="VARCHAR" length="15" precision="0" nullable="true" jdbcType="12"/>
       <column name="VisitedBefore" sqlType="BIT" length="0" precision="0" nullable="true" jdbcType="-7"/>
       <primary-key name="PRIMARY" columns="Id"/>
-      <exported-key name="Appointment_To_Patient_FK" table="appointments" schema="" catalog="dentalclinicdb" columns="PatientId"/>
+      <exported-key name="App_To_Patients" table="appointments" schema="" catalog="dentalclinicdb" columns="PatientId"/>
+    </table>
+    <table name="positions" schema="" catalog="dentalclinicdb" type="TABLE">
+      <column name="Id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="Name" sqlType="VARCHAR" length="45" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="Id"/>
+      <exported-key name="Position_tr_to_Position" table="positions_translations" schema="" catalog="dentalclinicdb" columns="PositionId"/>
+      <exported-key name="staff_to_position" table="staff" schema="" catalog="dentalclinicdb" columns="PositionId"/>
+    </table>
+    <table name="positions_translations" schema="" catalog="dentalclinicdb" type="TABLE">
+      <column name="PositionId" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="LangId" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="Name" sqlType="VARCHAR" length="45" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="PositionId,LangId"/>
+      <foreign-key name="Position_tr_to_Position" columns="PositionId" ref-table="positions" ref-schema="" ref-catalog="dentalclinicdb" ref-columns="Id" update-rule="0" delete-rule="0" deferrability="2"/>
+      <foreign-key name="Position_tr_to_Lang" columns="LangId" ref-table="languages" ref-schema="" ref-catalog="dentalclinicdb" ref-columns="Id" update-rule="0" delete-rule="0" deferrability="2"/>
+      <index name="Position_tr_to_Lang_idx" unique="false" columns="LangId"/>
     </table>
     <table name="roles" schema="" catalog="dentalclinicdb" type="TABLE">
       <column name="rolename" sqlType="VARCHAR" length="20" precision="0" nullable="false" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="rolename"/>
       <exported-key name="User_To_Role_FK" table="user_roles" schema="" catalog="dentalclinicdb" columns="rolename"/>
     </table>
-    <table name="treatment_category" schema="" catalog="dentalclinicdb" type="TABLE">
-      <column name="Id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
-      <column name="Name" sqlType="VARCHAR" length="5" precision="0" nullable="true" jdbcType="12"/>
-      <primary-key name="PRIMARY" columns="Id"/>
-      <exported-key name="Translaion_to_Category" table="treatment_category_translations" schema="" catalog="dentalclinicdb" columns="CategoryId"/>
-      <exported-key name="Treatment_To_Category" table="treatments" schema="" catalog="dentalclinicdb" columns="CategoryId"/>
+    <table name="sequence" schema="" catalog="dentalclinicdb" type="TABLE">
+      <column name="SEQ_NAME" sqlType="VARCHAR" length="30" precision="0" nullable="false" jdbcType="12"/>
+      <column name="SEQ_COUNT" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
     </table>
-    <table name="treatment_category_translations" schema="" catalog="dentalclinicdb" type="TABLE">
-      <column name="CategoryId" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" def="MA=="/>
-      <column name="LangId" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" def="MA=="/>
-      <column name="Name" sqlType="MEDIUMTEXT" length="16777215" precision="0" nullable="true" jdbcType="-1"/>
-      <primary-key name="PRIMARY" columns="CategoryId,LangId"/>
-      <foreign-key name="Cat_Translation_To_Lang" columns="LangId" ref-table="languages" ref-schema="" ref-catalog="dentalclinicdb" ref-columns="Id" update-rule="3" delete-rule="0" deferrability="2"/>
-      <foreign-key name="Translaion_to_Category" columns="CategoryId" ref-table="treatment_category" ref-schema="" ref-catalog="dentalclinicdb" ref-columns="Id" update-rule="3" delete-rule="0" deferrability="2"/>
-      <index name="Cat_Translation_To_Lang_idx" unique="false" columns="LangId"/>
+    <table name="staff" schema="" catalog="dentalclinicdb" type="TABLE">
+      <column name="DateOfBirth" sqlType="DATE" length="10" precision="0" nullable="true" jdbcType="91"/>
+      <column name="Gender" sqlType="CHAR" length="1" precision="0" nullable="false" jdbcType="1"/>
+      <column name="MobNumber" sqlType="VARCHAR" length="15" precision="0" nullable="true" jdbcType="12"/>
+      <column name="HomeNumber" sqlType="VARCHAR" length="15" precision="0" nullable="true" jdbcType="12"/>
+      <column name="YearsOfExperience" sqlType="TINYINT" length="3" precision="0" nullable="true" jdbcType="-6"/>
+      <column name="PositionId" sqlType="INT UNSIGNED" length="10" precision="0" nullable="true" jdbcType="4"/>
+      <column name="Id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <primary-key name="PRIMARY" columns="Id"/>
+      <foreign-key name="staff_to_position" columns="PositionId" ref-table="positions" ref-schema="" ref-catalog="dentalclinicdb" ref-columns="Id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="App_To_Doctors" table="appointments" schema="" catalog="dentalclinicdb" columns="DoctorId"/>
+      <exported-key name="Doctor_To_Translations_FK" table="staff_translations" schema="" catalog="dentalclinicdb" columns="DoctorId"/>
+      <exported-key name="WH_To_Doctor_FK" table="working_hours" schema="" catalog="dentalclinicdb" columns="DoctorId"/>
+      <index name="staff_to_position_idx" unique="false" columns="PositionId"/>
+    </table>
+    <table name="staff_translations" schema="" catalog="dentalclinicdb" type="TABLE">
+      <column name="DoctorId" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="LangId" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="FirstName" sqlType="VARCHAR" length="30" precision="0" nullable="false" jdbcType="12"/>
+      <column name="LastName" sqlType="VARCHAR" length="30" precision="0" nullable="false" jdbcType="12"/>
+      <column name="Speciality" sqlType="VARCHAR" length="255" precision="0" nullable="true" jdbcType="12"/>
+      <column name="Education" sqlType="TEXT" length="65535" precision="0" nullable="true" jdbcType="-1"/>
+      <column name="MiddleName" sqlType="VARCHAR" length="45" precision="0" nullable="true" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="DoctorId,LangId"/>
+      <foreign-key name="Doctor_To_Lang_FK" columns="LangId" ref-table="languages" ref-schema="" ref-catalog="dentalclinicdb" ref-columns="Id" update-rule="3" delete-rule="0" deferrability="2"/>
+      <foreign-key name="Doctor_To_Translations_FK" columns="DoctorId" ref-table="staff" ref-schema="" ref-catalog="dentalclinicdb" ref-columns="Id" update-rule="3" delete-rule="0" deferrability="2"/>
+      <index name="DoctorId_FK_idx" unique="false" columns="DoctorId"/>
+      <index name="LangId_FK_idx" unique="false" columns="LangId"/>
     </table>
     <table name="treatments" schema="" catalog="dentalclinicdb" type="TABLE">
       <column name="Id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
@@ -149,31 +157,8 @@
       <column name="EndTme" sqlType="TIME" length="8" precision="0" nullable="true" jdbcType="92"/>
       <column name="Id" sqlType="INT UNSIGNED" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <primary-key name="PRIMARY" columns="Id"/>
-      <foreign-key name="WH_To_Doctor_FK" columns="DoctorId" ref-table="doctors" ref-schema="" ref-catalog="dentalclinicdb" ref-columns="Id" update-rule="3" delete-rule="0" deferrability="2"/>
+      <foreign-key name="WH_To_Doctor_FK" columns="DoctorId" ref-table="staff" ref-schema="" ref-catalog="dentalclinicdb" ref-columns="Id" update-rule="3" delete-rule="0" deferrability="2"/>
       <index name="DoctorId_FK_idx" unique="false" columns="DoctorId"/>
     </table>
-    <procedure name="get_all_treatments" schema="" catalog="dentalclinicdb" type="1">
-      <prototype>
-        <parameter name="lang_id" sqlType="INT" length="10" precision="10" nullable="true" jdbcType="4" type="1" index="1"/>
-      </prototype>
-    </procedure>
-    <procedure name="insert_treatment" schema="" catalog="dentalclinicdb" type="1">
-      <prototype>
-        <parameter name="name" sqlType="LONG VARCHAR" length="0" precision="0" nullable="true" jdbcType="1111" type="1" index="1"/>
-        <parameter name="description" sqlType="TEXT" length="65535" precision="65535" nullable="true" jdbcType="-1" type="1" index="2"/>
-        <parameter name="lang_id" sqlType="INT" length="10" precision="10" nullable="true" jdbcType="4" type="1" index="3"/>
-        <parameter name="lowPrice" sqlType="MEDIUMINT" length="7" precision="7" nullable="true" jdbcType="4" type="1" index="4"/>
-        <parameter name="topPrice" sqlType="MEDIUMINT" length="7" precision="7" nullable="true" jdbcType="4" type="1" index="5"/>
-        <parameter name="treatmentId" sqlType="INT" length="10" precision="10" nullable="true" jdbcType="4" type="4" index="6"/>
-      </prototype>
-    </procedure>
-    <procedure name="set_treatment_locale" schema="" catalog="dentalclinicdb" type="1">
-      <prototype>
-        <parameter name="treatmentName" sqlType="LONG VARCHAR" length="0" precision="0" nullable="true" jdbcType="1111" type="1" index="1"/>
-        <parameter name="treatmentDescription" sqlType="TEXT" length="65535" precision="65535" nullable="true" jdbcType="-1" type="1" index="2"/>
-        <parameter name="langId" sqlType="INT" length="10" precision="10" nullable="true" jdbcType="4" type="1" index="3"/>
-        <parameter name="treatmentId" sqlType="INT" length="10" precision="10" nullable="true" jdbcType="4" type="1" index="4"/>
-      </prototype>
-    </procedure>
   </data-source>
 </component>

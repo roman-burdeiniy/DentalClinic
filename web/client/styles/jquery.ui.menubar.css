@@ -6,14 +6,14 @@
  * http://jquery.org/license
  */
 .ui-menubar {
-	list-style: none;
+    list-style: none;
     height: 33px;
     border-style: none;
     background: -webkit-linear-gradient(#FF7011, #D45400); /* For Safari */
     background: -o-linear-gradient(#FF7011, #D45400); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#FF7011, #D45400); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#FF7011, #D45400); /* Standard syntax */
-	margin: 0; padding-left: 0;
+    margin: 0; padding-left: 0;
 }
 
 .ui-menubar-item {
@@ -54,8 +54,8 @@
 .ui-menubar .ui-button {
 	float: left;
     height: 33px;
-	font-weight: bold;
-    color: #FFFFFF;
+	font-weight: normal;
+    color: #F3F3F3;
 	border-top-width: 0 !important;
 	border-bottom-width: 0 !important;
 	margin: 0;
@@ -63,6 +63,7 @@
 }
 
 .ui-menubar .ui-button:hover {
+    color: #FFFFFF;
     background: -webkit-linear-gradient(#FF7011, #D45400); /* For Safari */
     background: -o-linear-gradient(#FF7011, #D45400); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#FF7011, #D45400); /* For Firefox 3.6 to 15 */
@@ -70,6 +71,7 @@
 }
 
 .ui-menubar .ui-button-active {
+    color: #FFFFFF;
     background: -webkit-linear-gradient(#FF7011, #D45400); /* For Safari */
     background: -o-linear-gradient(#FF7011, #D45400); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#FF7011, #D45400); /* For Firefox 3.6 to 15 */
@@ -77,6 +79,7 @@
 }
 
 .ui-menubar .ui-button-active:hover {
+    color: #FFFFFF;
     background: -webkit-linear-gradient(#FF7011, #D45400); /* For Safari */
     background: -o-linear-gradient(#FF7011, #D45400); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#FF7011, #D45400); /* For Firefox 3.6 to 15 */

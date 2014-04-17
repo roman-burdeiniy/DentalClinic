@@ -5,15 +5,33 @@
 	      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
          version="3.0">
 
+   <!-- <data-source>
+        <name>jdbc/dentalclinicdb</name>
+        <class-name>com.mysql.jdbc.Driver</class-name>
+        <url>jdbc:mysql://mysql-ivadent.jelastic.neohost.net/dentalclinicdb</url>
+        <user>root</user>
+        <password>M66qDqH2Db</password>
+        <transactional>true</transactional>
+    </data-source>-->
+
+    <data-source>
+        <name>jdbc/dentalclinicdb</name>
+        <class-name>com.mysql.jdbc.Driver</class-name>
+        <url>jdbc:mysql://localhost:3306/dentalclinicdb?characterEncoding=utf8&amp;characterSetResults=utf8</url>
+        <user>root</user>
+        <password>Gosha777</password>
+        <transactional>true</transactional>
+        <isolation-level>TRANSACTION_READ_COMMITTED</isolation-level>
+    </data-source>
+
     <display-name>DentalClinic</display-name>
 
-
     <welcome-file-list>
-        <welcome-file>client/index.html</welcome-file>
+        <welcome-file>/admin/index.jsp</welcome-file>
     </welcome-file-list>
 
     <!--                Security                    -->
-    <security-role>
+   <!-- <security-role>
         <description>Admin security role</description>
         <role-name>admin</role-name>
     </security-role>
@@ -28,28 +46,49 @@
             <role-name>admin</role-name>
         </auth-constraint>
         <user-data-constraint>
-            <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+            <transport-guarantee>NONE</transport-guarantee>
         </user-data-constraint>
     </security-constraint>
 
     <login-config>
         <auth-method>FORM</auth-method>
+        <realm-name>JDBCRealm</realm-name>
         <form-login-config>
             <form-login-page>/login/login.html</form-login-page>
             <form-error-page>/login/login-failed.html</form-error-page>
         </form-login-config>
     </login-config>
-
+-->
     <!--                Security End                    -->
 
     <servlet>
-        <servlet-name>treatmentServlet</servlet-name>
-        <servlet-class>ua.com.dentalclinic.treatment.TreatmentServlet</servlet-class>
+        <servlet-name>priceManagerServlet</servlet-name>
+        <servlet-class>ua.com.dentalclinic.treatment.PriceManagerServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>loadPriceServlet</servlet-name>
+        <servlet-class>ua.com.dentalclinic.treatment.LoadPriceServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>staffManagerServlet</servlet-name>
+        <servlet-class>ua.com.dentalclinic.staff.StaffServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>treatmentServlet</servlet-name>
-        <url-pattern>/admin/servlet/treatmentServlet</url-pattern>
+        <servlet-name>priceManagerServlet</servlet-name>
+        <url-pattern>/admin/servlet/priceServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>loadPriceServlet</servlet-name>
+        <url-pattern>/client/servlet/priceServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>staffManagerServlet</servlet-name>
+        <url-pattern>/admin/servlet/staffServlet</url-pattern>
     </servlet-mapping>
 
 

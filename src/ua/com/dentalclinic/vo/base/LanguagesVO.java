@@ -1,13 +1,15 @@
 package ua.com.dentalclinic.vo.base;
 
+import ua.com.dentalclinic.vo.base.StaffTranslationsVO;
+
 import javax.persistence.*;
 import java.util.Collection;
 
 /**
  * Created with IntelliJ IDEA.
  * User: roman_b
- * Date: 12/30/13
- * Time: 4:01 PM
+ * Date: 4/2/14
+ * Time: 4:09 PM
  * To change this template use File | Settings | File Templates.
  */
 @javax.persistence.Table(name = "languages", schema = "", catalog = "dentalclinicdb")
@@ -18,7 +20,8 @@ import java.util.Collection;
 public class LanguagesVO {
     private int id;
     private String code;
-    private Collection<DoctorsTranslationsVO> doctorsTranslationsesById;
+   /* private Collection<PositionsVO> positionsesById;*/
+    /*private Collection<StaffTranslationsVO> staffTranslationsesById;*/
     private Collection<TreatmentsTranslationsVO> treatmentsTranslationsesById;
 
     @javax.persistence.Column(name = "Id")
@@ -61,14 +64,23 @@ public class LanguagesVO {
         return result;
     }
 
-    @OneToMany(mappedBy = "languagesByLangId")
-    public Collection<DoctorsTranslationsVO> getDoctorsTranslationsesById() {
-        return doctorsTranslationsesById;
+   /* @OneToMany(mappedBy = "languagesByLangId")
+    public Collection<PositionsVO> getPositionsesById() {
+        return positionsesById;
     }
 
-    public void setDoctorsTranslationsesById(Collection<DoctorsTranslationsVO> doctorsTranslationsesById) {
-        this.doctorsTranslationsesById = doctorsTranslationsesById;
+    public void setPositionsesById(Collection<PositionsVO> positionsesById) {
+        this.positionsesById = positionsesById;
+    }*/
+
+  /*  @OneToMany(mappedBy = "languagesByLangId")
+    public Collection<StaffTranslationsVO> getStaffTranslationsesById() {
+        return staffTranslationsesById;
     }
+
+    public void setStaffTranslationsesById(Collection<StaffTranslationsVO> staffTranslationsesById) {
+        this.staffTranslationsesById = staffTranslationsesById;
+    }*/
 
     @OneToMany(mappedBy = "languagesByLangId")
     public Collection<TreatmentsTranslationsVO> getTreatmentsTranslationsesById() {

@@ -16,7 +16,7 @@
         <setting name="validation-enabled" value="true" />
         <setting name="provider-name" value="EclipseLink" />
         <datasource-mapping>
-          <factory-entry name="persistenceUnit" value="615dcd65-5e50-49a2-b2ec-4044b8837279" />
+          <factory-entry name="persistenceUnit2" value="615dcd65-5e50-49a2-b2ec-4044b8837279" />
         </datasource-mapping>
         <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/META-INF/persistence.xml" />
       </configuration>
@@ -46,7 +46,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="openjpa-2.3.0-nonfinal-1540826" level="project" />
   </component>
 </module>
 

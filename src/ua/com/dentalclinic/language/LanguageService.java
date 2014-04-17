@@ -1,6 +1,7 @@
 package ua.com.dentalclinic.language;
 
 
+import ua.com.dentalclinic.ApplicationInitManager;
 import ua.com.dentalclinic.base.ServiceBase;
 import ua.com.dentalclinic.vo.base.LanguagesVO;
 

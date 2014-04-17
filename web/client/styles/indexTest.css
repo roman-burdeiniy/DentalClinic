@@ -1,0 +1,42 @@
+html,body {
+    font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+#holderDiv {
+    border-style:solid;
+    width: 500px;
+    position: static;
+    min-height: 100%;
+}
+
+#headerDiv{
+    border-style:solid;
+    border-color:#FF0000;
+    height:100px;
+    position: static;
+    width: 100%;
+}
+
+#centerDiv{
+    width:100%;
+    height: 200px;
+    border-style:solid;
+    border-color:#00FF00;
+}
+
+#content{
+    border-style:solid;
+    border-color:yellow;
+    height:500px;
+}
+
+#footerDiv{
+    position: static;
+    border-style:solid;
+    border-color:#0000FF;
+    height:100px;
+}
